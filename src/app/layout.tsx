@@ -105,7 +105,7 @@ const websiteSchema = {
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': 'VapeStore',
+  '@type': 'Store',
   name: 'VapeeShopDelhi – Vape Shop Delhi & Gurgaon',
   alternateName: ['Vape Shop Delhi', 'Vape Store Gurgaon', 'Vapee Shop Delhi'],
   image: 'https://vapeeshopdelhi.com/og-banner.jpg',
@@ -145,15 +145,7 @@ const localBusinessSchema = {
     { '@type': 'AdministrativeArea', name: 'Gurugram' },
     { '@type': 'AdministrativeArea', name: 'Dwarka' },
     { '@type': 'AdministrativeArea', name: 'Connaught Place' }
-  ],
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    bestRating: '5',
-    worstRating: '1',
-    ratingCount: '1840',
-    reviewCount: '1420'
-  }
+  ]
 };
 
 const faqSchema = {
