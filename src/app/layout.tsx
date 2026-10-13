@@ -7,11 +7,11 @@ import MobileStickyBar from '@/components/MobileStickyBar';
 export const metadata: Metadata = {
   metadataBase: new URL('https://vapeeshopdelhi.com'),
   title: {
-    default: 'Vape Shop Delhi | VapeeShopDelhi.com – #1 Store & Same Day NCR Express Delivery',
-    template: '%s | VapeeShopDelhi'
+    default: 'Vape Shop Delhi – Best Vape Store & Same Day NCR Delivery',
+    template: '%s | Vape Shop Delhi'
   },
   description:
-    'VapeeShopDelhi.com is Delhi & Gurgaon\'s #1 authentic vape store. Order Elfbar Raya D2 20000, SMOK Nord, and Raya D1 Black Gold with 100% genuine scratch codes. 45-90 min delivery across Delhi NCR.',
+    'Best Vape Shop in Delhi & Gurgaon. Buy 100% genuine disposable vapes, Elfbar & SMOK kits with 45-min express delivery across Delhi NCR. Order on WhatsApp',
   keywords: [
     'vapeeshopdelhi',
     'vapeeshopdelhi.com',
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     'cash on delivery vape delhi',
     'vape delivery gurgaon dlf'
   ],
-  authors: [{ name: 'VapeeShopDelhi' }],
+  authors: [{ name: 'Vape Shop Delhi' }],
   robots: {
     index: true,
     follow: true,
@@ -61,23 +61,24 @@ export const metadata: Metadata = {
     type: 'website',
     locale: 'en_IN',
     url: 'https://vapeeshopdelhi.com',
-    siteName: 'VapeeShopDelhi - #1 Vape Store Delhi NCR',
-    title: 'Vape Shop Delhi | VapeeShopDelhi.com – Fast Delivery Across Delhi NCR',
+    siteName: 'Vape Shop Delhi - Best Vape Store Delhi NCR',
+    title: 'Vape Shop Delhi – Best Vape Store & Same Day NCR Delivery',
     description:
-      'Order genuine Elfbar Raya D2, SMOK Nord, and Raya D1 Gold from VapeeShopDelhi.com. 100% authentic scratch verification & 45-90 min express courier drops.',
+      'Best Vape Shop in Delhi & Gurgaon. Buy 100% genuine disposable vapes, Elfbar & SMOK kits with 45-min express delivery across Delhi NCR. Order on WhatsApp & COD!',
     images: [
       {
         url: 'https://vapeeshopdelhi.com/og-banner.jpg',
         width: 1200,
         height: 630,
-        alt: 'VapeeShopDelhi.com - Official Vape Store Delhi NCR'
+        alt: 'Vape Shop Delhi - Official Collection'
       }
     ]
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vape Shop Delhi | VapeeShopDelhi.com – 45-90 Mins Delivery',
-    description: 'Top rated vape store in Delhi NCR & Gurgaon. Original brands, sealed boxes, express delivery.',
+    title: 'Vape Shop Delhi – Best Vape Store & Same Day NCR Delivery',
+    description:
+      'Best Vape Shop in Delhi & Gurgaon. Buy 100% genuine disposable vapes, Elfbar & SMOK kits with 45-min express delivery across Delhi NCR. Order on WhatsApp & COD!',
     images: ['https://vapeeshopdelhi.com/og-banner.jpg']
   },
   other: {

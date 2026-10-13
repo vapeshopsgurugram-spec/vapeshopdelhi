@@ -14,7 +14,7 @@ export default function HomePage() {
         <div className="container hero-grid">
           <div className="hero-content">
             <div className="hero-chip">
-              <span className="live-dot"></span> VapeeShopDelhi.com • #1 Top Rated Vape Shop Delhi & NCR
+              <span className="live-dot"></span> Top Rated Authentic Vape Shop in Delhi & NCR
             </div>
 
             {/* SINGLE AUTHORITATIVE H1 FOR GOOGLE RANK #1 ON "VAPE SHOP DELHI" */}
