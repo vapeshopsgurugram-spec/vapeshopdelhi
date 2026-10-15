@@ -14,16 +14,16 @@ export default function HomePage() {
         <div className="container hero-grid">
           <div className="hero-content">
             <div className="hero-chip">
-              <span className="live-dot"></span> Top Rated Authentic Vape Shop in Delhi & NCR
+              <span className="live-dot"></span> Delhi's #1 Rated Authentic Vape Shop
             </div>
 
             {/* SINGLE AUTHORITATIVE H1 FOR GOOGLE RANK #1 ON "VAPE SHOP DELHI" */}
             <h1 className="hero-title">
-              Vape Shop Delhi – Premium Vapes & Same Day NCR Express Delivery
+              Vape Shop Delhi – Buy Authentic Vapes with 45-Min Express Delivery in Delhi
             </h1>
 
             <p className="hero-subtitle">
-              Welcome to <strong>VapeeShopDelhi.com</strong>, your verified destination for authentic disposable vapes, pod kits, and e-liquids. We deliver factory-sealed devices directly to your doorstep across <strong>South Delhi, Connaught Place, Dwarka, Noida & Gurugram DLF</strong> in under 45 to 90 minutes.
+              Welcome to <strong>VapeeShopDelhi.com</strong> — Delhi's most trusted vape shop for 100% authentic disposable vapes, pod kits & nic salts. We deliver factory-sealed devices directly to your doorstep across <strong>South Delhi, Connaught Place, Dwarka, Rohini, Hauz Khas & all of Delhi</strong> in 45 minutes.
             </p>
 
             {/* LOCALITY PICKER */}
@@ -64,10 +64,10 @@ export default function HomePage() {
 
           <div className="hero-visual">
             <div className="hero-card-glow">
-              <div className="hero-badge-floating">⚡ 2-Hr Express in Delhi</div>
+              <div className="hero-badge-floating">⚡ 45-Min Express in Delhi</div>
               <img
                 src="/og-banner.jpg"
-                alt="VapeeShopDelhi.com Official Vape Store Delhi NCR Collection"
+                alt="VapeeShopDelhi.com - Best Vape Shop in Delhi, Official Collection"
                 className="hero-img"
                 width={560}
                 height={315}
@@ -121,10 +121,10 @@ export default function HomePage() {
       <section id="products" className="section-products">
         <div className="container">
           <div className="section-head text-center" style={{ marginBottom: '32px' }}>
-            <span className="sub-head">CURATED BESTSELLERS • DELHI & GURGAON NCR</span>
-            <h2 className="section-title">Highest Rated Vapes & Pods</h2>
+            <span className="sub-head">CURATED BESTSELLERS • DELHI'S TOP PICKS</span>
+            <h2 className="section-title">Best Vapes to Buy in Delhi — 100% Authentic</h2>
             <p className="section-desc">
-              100% factory-sealed original devices with smart screens, long battery life, and same-day express delivery across Delhi NCR & Gurgaon.
+              100% factory-sealed original devices with smart screens, long battery life, and same-day 45-min express delivery across all Delhi zones — South, Central, West & North Delhi.
             </p>
           </div>
 
@@ -132,15 +132,15 @@ export default function HomePage() {
 
           <div className="product-footer-cta">
             <p>
-              Looking for a specific model, coil replacement, or salt nic flavor not listed here? We have 100+ items ready in our Delhi warehouse.
+              Looking for a specific model, coil, or salt nic flavor not listed? We stock 100+ items at our Delhi warehouse — Elfbar, SMOK, Uwell, Vaporesso & more!
             </p>
             <a
-              href="https://wa.me/919876543210?text=Hey%20do%20you%20have%20stock%20for%20other%20brands%20in%20Delhi%3F"
+              href="https://wa.me/919876543210?text=Hello%20Vape%20Shop%20Delhi%21%20I%20want%20to%20see%20the%20full%20menu%20of%20available%20products%20for%20delivery%20in%20Delhi."
               className="btn btn-whatsapp"
               target="_blank"
               rel="noopener noreferrer"
             >
-              💬 Check Live Warehouse Stock on WhatsApp
+              💬 WhatsApp for Full Delhi Stock Menu
             </a>
           </div>
         </div>
@@ -150,10 +150,10 @@ export default function HomePage() {
       <section id="delhi-locations" className="section-locations">
         <div className="container">
           <div className="section-head text-center">
-            <span className="sub-head">RAPID 2-HOUR COURIER DISPATCH</span>
-            <h2 className="section-title">Vape Delivery Locations Across Delhi NCR</h2>
+            <span className="sub-head">45-MIN EXPRESS DELIVERY IN DELHI</span>
+            <h2 className="section-title">Vape Shop Delhi — We Deliver to Every Zone in Delhi</h2>
             <p className="section-desc">
-              Our distributed delivery partners ensure guaranteed express same-day doorstep drops in all major Delhi zones.
+              From South Delhi to North Delhi, West to East — our express delivery partners cover every corner of Delhi in 45–90 minutes. Same-day, doorstep, discreet.
             </p>
           </div>
 
@@ -206,15 +206,15 @@ export default function HomePage() {
             <div className="location-card">
               <div className="loc-header">
                 <span className="loc-pin">📍</span>
-                <h3>Noida & Gurugram NCR</h3>
+                <h3>East & North-East Delhi</h3>
               </div>
-              <p className="loc-time">⚡ Delivery in 90 - 150 Minutes</p>
+              <p className="loc-time">⚡ Delivery in 60 - 90 Minutes</p>
               <ul className="loc-areas">
-                <li>Gurugram Cyber Hub & Golf Course Rd</li>
-                <li>Noida Sector 18, 50, 62 & 137</li>
-                <li>Indirapuram & Vaishali</li>
-                <li>Greater Noida Express Highway</li>
-                <li>Sohna Road Gurugram</li>
+                <li>Laxmi Nagar & Preet Vihar</li>
+                <li>Mayur Vihar (Phase 1, 2 & 3)</li>
+                <li>Patparganj & IP Extension</li>
+                <li>Shahdara & Dilshad Garden</li>
+                <li>Vivek Vihar & Anand Vihar</li>
               </ul>
             </div>
           </div>
@@ -268,37 +268,52 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* SEO LONG-FORM CONTENT / DELHI BUYER GUIDE (CRITICAL FOR #1 GOOGLE RANKING) */}
+      {/* SEO LONG-FORM CONTENT / DELHI BUYER GUIDE (CRITICAL FOR TOP 5 GOOGLE RANKING) */}
       <section id="seo-guide" className="section-seo-guide">
         <div className="container guide-container">
           <div className="section-head">
-            <span className="sub-head">COMPLETE BUYING GUIDE</span>
-            <h2 className="section-title">Vape Shop Delhi: The Ultimate Guide to Buying Authentic Vapes & E-Liquids</h2>
+            <span className="sub-head">DELHI VAPER'S COMPLETE GUIDE</span>
+            <h2 className="section-title">Best Vape Shop in Delhi: Complete Guide to Buying Authentic Vapes in Delhi</h2>
           </div>
 
           <div className="guide-content">
             <article className="guide-article">
-              <h3>Finding a Trusted Vape Store in Delhi</h3>
+              <h3>Why VapeeShopDelhi.com is Delhi's Most Trusted Vape Store</h3>
               <p>
-                Finding an authentic and dependable <strong>vape shop in Delhi</strong> can often be challenging due to a market flooded with cloned devices, fake puff counts, and expired e-liquids. When searching for the best vape store in South Delhi, Central Delhi, or West Delhi, verified authenticity, fresh batch dates, and safe nicotine salt formulations are the top criteria every discerning customer demands.
+                If you&apos;re searching for a reliable <strong>vape shop in Delhi</strong>, VapeeShopDelhi.com is your #1 choice. Delhi&apos;s market is filled with counterfeit devices, fake puff counts, and expired e-liquids — but every product we sell comes with a holographic scratch verification code so you can confirm 100% authenticity before using. We serve all of Delhi: <strong>South Delhi, Central Delhi, West Delhi, North Delhi & East Delhi</strong>.
               </p>
 
-              <h3>Disposable Vapes vs. Refillable Pod Systems: What Should You Choose?</h3>
+              <h3>Buy Vapes in Delhi — Disposable vs. Refillable Pod Systems</h3>
               <p>
-                Whether you&apos;re shopping for convenience or long-term value, here is how the two top categories compare:
+                Not sure what to buy? Here is a quick comparison for Delhi vapers:
               </p>
               <ul>
                 <li>
-                  <strong>Disposable Vapes (IGET, Elf Bar):</strong> Ideal for effortless usage with zero coil changes, pre-charged batteries, and up to 5,000+ puffs. Perfect for working professionals in Connaught Place or Gurugram needing on-the-go simplicity.
+                  <strong>Disposable Vapes (Elfbar Raya D2, D1 Black Gold):</strong> Perfect for beginners and busy Delhi professionals. Zero maintenance, pre-charged, up to 20,000 puffs. Available for same-day delivery across all Delhi areas.
                 </li>
                 <li>
-                  <strong>Refillable Pod Kits (Uwell Caliburn, Vaporesso XROS):</strong> Cost-effective and highly customizable. Refill with your favorite imported 30ml salt nic juices while replacing only the magnetic cartridge every 2-3 weeks.
+                  <strong>Refillable Pod Kits (SMOK Nord 1100mAh):</strong> Best value for regular Delhi vapers. Refill with imported nic salt juices. Coils last 2–3 weeks. Order with 45-min delivery in Delhi.
                 </li>
               </ul>
 
-              <h3>Same Day Vape Delivery Across Delhi NCR</h3>
+              <h3>45-Min Same Day Vape Delivery Across All Delhi Areas</h3>
               <p>
-                Why wait days for standard courier shipments? <strong>VapeeShopDelhi.com</strong> operates regional hub dispatches allowing instant hand-to-hand delivery to South Delhi localities like Greater Kailash, Saket, Green Park, and Hauz Khas in under 90 minutes. Customers residing in Dwarka, Rajouri Garden, Noida, and DLF Cyber City Gurugram also enjoy dedicated same-day express routes.
+                No more waiting 3–5 days for online orders! <strong>VapeeShopDelhi.com</strong> delivers vapes same-day, directly to your door anywhere in Delhi. South Delhi areas like <strong>Greater Kailash, Hauz Khas, Saket & Defence Colony</strong> get delivery in 45 minutes. Central Delhi like <strong>Connaught Place & Karol Bagh</strong> in 60 minutes. West Delhi areas like <strong>Dwarka, Rajouri Garden & Janakpuri</strong> in 90 minutes. East Delhi areas like <strong>Mayur Vihar & Laxmi Nagar</strong> in 60–90 minutes.
+              </p>
+
+              <h3>How to Order Vapes in Delhi — Simple 3-Step Process</h3>
+              <p>
+                Ordering your vape in Delhi is super easy with VapeeShopDelhi.com:
+              </p>
+              <ul>
+                <li><strong>Step 1:</strong> Browse our Delhi vape collection and pick your product & flavor above.</li>
+                <li><strong>Step 2:</strong> Click &ldquo;Order on WhatsApp&rdquo; — share your Delhi delivery address.</li>
+                <li><strong>Step 3:</strong> Our Delhi delivery partner dispatches within 30 minutes. Pay via UPI or COD on delivery.</li>
+              </ul>
+
+              <h3>Cash on Delivery (COD) Vapes Available in Delhi</h3>
+              <p>
+                VapeeShopDelhi.com is one of the very few <strong>vape shops in Delhi</strong> that offers Cash on Delivery (COD) across most Delhi pin codes. You can also pay via Google Pay, PhonePe, Paytm, or BHIM UPI. No advance payment required for most Delhi areas.
               </p>
             </article>
           </div>
@@ -360,13 +375,13 @@ export default function HomePage() {
             <div className="review-card">
               <div className="stars">★★★★★</div>
               <p className="review-text">
-                &ldquo;Super responsive on WhatsApp. Got my IGET Bar delivered to DLF Phase 5 Gurugram within 2 hours. Best prices in NCR compared to offline kiosks.&rdquo;
+                &ldquo;Ordered Elfbar Raya D2 to Mayur Vihar Phase 1 at 9 PM, arrived by 10:10 PM! Packaging was 100% discreet. Best vape shop in Delhi, no doubt!&rdquo;
               </p>
               <div className="reviewer">
-                <span className="reviewer-avatar">VS</span>
+                <span className="reviewer-avatar">NK</span>
                 <div>
-                  <strong>Varun S.</strong>
-                  <span>Gurugram NCR • Verified Buyer</span>
+                  <strong>Nikhil K.</strong>
+                  <span>East Delhi • Verified Buyer</span>
                 </div>
               </div>
             </div>

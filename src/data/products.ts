@@ -42,9 +42,9 @@ export const PRODUCTS: Product[] = [
     reviewCount: 182,
     soldCount: '700+ sold',
     badge: '36% OFF • 20K PUFFS',
-    shortDesc: 'Elfbar Raya D2 20000 Disposable Pod Device with 20K Smooth / 14K Turbo dual modes and smart screen. Fast delivery in Gurgaon & Delhi NCR.',
-    metaTitle: 'Elfbar Raya D2 20000 Disposable Pod Device | Vape Store Delhi & Gurgaon',
-    metaDescription: 'Buy authentic Elfbar Raya D2 20000 Disposable Pod Device with 20K Smooth / 14K Turbo dual modes and smart screen. 4.9★ rating. Same-day express delivery in Delhi NCR & Gurgaon.',
+    shortDesc: 'Elfbar Raya D2 20000 Disposable Pod Device with 20K Smooth / 14K Turbo dual modes and smart screen. Best disposable vape in Delhi with 45-min express delivery.',
+    metaTitle: 'Elfbar Raya D2 20000 Disposable Pod Device | Buy in Delhi | 45-Min Delivery',
+    metaDescription: 'Buy authentic Elfbar Raya D2 20000 Disposable Pod Device in Delhi. 20K Smooth / 14K Turbo dual modes, smart screen, 4.9★ rated. Same-day 45-min express delivery across all Delhi areas. COD available.',
     image: '/images/products/elfbar-raya-d2-20000.jpg',
     puffs: '20,000 Smooth / 14,000 Turbo Puffs',
     nicotine: '50mg (5% Nic Salt)',
@@ -63,11 +63,11 @@ export const PRODUCTS: Product[] = [
       'Full Digital Smart Display showing Battery % and Liquid Level',
       'Advanced Dual Mesh Coil for Rich, Dense Vapor Output',
       '100% Genuine Box with Holographic Scratch Verification Code',
-      'Instant Express Delivery in Gurgaon (Cyber City, Golf Course) & Delhi NCR'
+      'Instant Express Delivery in Delhi — South Delhi, Connaught Place, Dwarka & all Delhi areas'
     ],
-    delhiDeliveryTime: '45 - 90 Minutes (Delhi & Gurgaon Express)',
+    delhiDeliveryTime: '45 Minutes (Delhi Express)',
     inStock: true,
-    popularLocalities: ['Gurgaon Cyber City', 'Golf Course Road', 'South Delhi', 'Connaught Place', 'Dwarka']
+    popularLocalities: ['South Delhi', 'Connaught Place', 'Dwarka', 'Rohini', 'Greater Kailash', 'Hauz Khas', 'Karol Bagh']
   },
   {
     id: 'smok-nord-pod-kit-1100mah',
@@ -83,9 +83,9 @@ export const PRODUCTS: Product[] = [
     reviewCount: 186,
     soldCount: '800+ sold',
     badge: '17% OFF • 800+ SOLD',
-    shortDesc: 'SMOK Nord Pod Kit (1100mAh) with 3ML refillable pod and high-performance mesh coil. Fast delivery in Gurgaon & Delhi NCR.',
-    metaTitle: 'SMOK Nord Pod Kit 1100mAh | Buy Online Vape Store Delhi & Gurgaon',
-    metaDescription: 'Order original SMOK Nord Pod Kit 1100mAh with 3ml refillable pod and high-performance mesh coil. 4.9★ rated, 800+ sold. Express delivery in Gurgaon & Delhi NCR.',
+    shortDesc: 'SMOK Nord Pod Kit (1100mAh) with 3ML refillable pod and high-performance mesh coil. Best refillable pod kit in Delhi with same-day delivery.',
+    metaTitle: 'SMOK Nord Pod Kit 1100mAh | Buy Online in Delhi | Same Day Delivery',
+    metaDescription: 'Order original SMOK Nord Pod Kit 1100mAh with 3ml refillable pod and high-performance mesh coil. 4.9★ rated, 800+ sold. Same-day 45-min express delivery anywhere in Delhi. COD available.',
     image: '/images/products/smok-nord-pod-kit.jpg',
     battery: '1100mAh Long-Lasting Internal Battery',
     nicotine: 'Compatible with Salt Nicotine & Freebase E-Liquids',
@@ -105,9 +105,9 @@ export const PRODUCTS: Product[] = [
       'Single Button Fired with Smart LED Battery Indicator',
       '100% Original Sealed Box with Authentic QR Security Seal'
     ],
-    delhiDeliveryTime: '60 - 90 Minutes across Delhi NCR & Gurgaon',
+    delhiDeliveryTime: '45 - 90 Minutes across all Delhi zones',
     inStock: true,
-    popularLocalities: ['Gurugram Sectors', 'Hauz Khas', 'Greater Kailash', 'Noida', 'Rajouri Garden']
+    popularLocalities: ['Hauz Khas', 'Greater Kailash', 'Connaught Place', 'Rajouri Garden', 'Rohini', 'Dwarka', 'Saket']
   },
   {
     id: 'elfbar-raya-d1-black-gold',
@@ -123,9 +123,9 @@ export const PRODUCTS: Product[] = [
     reviewCount: 152,
     soldCount: '580+ sold',
     badge: '31% OFF • 13,000 PUFFS',
-    shortDesc: 'Elfbar Raya D1 Black Gold Edition Disposable Pod Device (13,000 Puffs) with dual smart display. Fast delivery in Gurgaon & Delhi NCR.',
-    metaTitle: 'Elfbar Raya D1 Black Gold 13000 Puffs | Vape Store Gurgaon & Delhi',
-    metaDescription: 'Buy Elfbar Raya D1 Black Gold Edition Disposable Pod Device (13,000 Puffs) with dual smart display. Genuine product, 4.9★ rating. Same-day delivery in Gurgaon & Delhi.',
+    shortDesc: 'Elfbar Raya D1 Black Gold Edition Disposable Pod Device (13,000 Puffs) with dual smart display. Delhi\'s top-selling luxury disposable vape with 45-min delivery.',
+    metaTitle: 'Elfbar Raya D1 Black Gold 13000 Puffs | Buy in Delhi | 45-Min Express Delivery',
+    metaDescription: 'Buy Elfbar Raya D1 Black Gold Edition Disposable Pod Device (13,000 Puffs) in Delhi. Dual smart display, genuine product, 4.9★ rated. Same-day 45-min delivery anywhere in Delhi. COD available.',
     image: '/images/products/elfbar-raya-d1-black-gold.jpg',
     puffs: '13,000 Puffs',
     nicotine: '50mg (5% Nic Salt)',
@@ -145,11 +145,11 @@ export const PRODUCTS: Product[] = [
       '13,000 Massive Puffs with Dual Smart Screen Display',
       'Real-Time Battery Indicator & E-Liquid Fuel Gauge',
       'Optimized Mesh Coil Technology for Consistent Throat Hit',
-      'Discreet Express Hand Delivery in Gurgaon & Delhi NCR'
+      'Discreet Express Hand Delivery across all Delhi areas in 45 minutes'
     ],
-    delhiDeliveryTime: '45 - 90 Minutes Express Delivery',
+    delhiDeliveryTime: '45 Minutes Express Delivery in Delhi',
     inStock: true,
-    popularLocalities: ['DLF Phase 1-5 Gurgaon', 'Sohna Road', 'Vasant Kunj', 'Saket', 'Connaught Place']
+    popularLocalities: ['South Delhi', 'Vasant Kunj', 'Saket', 'Connaught Place', 'Defence Colony', 'Hauz Khas', 'Greater Kailash']
   }
 ];
 

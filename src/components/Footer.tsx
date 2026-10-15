@@ -18,26 +18,27 @@ export default function Footer() {
             </span>
           </Link>
           <p className="footer-desc">
-            <strong>VapeeShopDelhi.com</strong> is Delhi & Gurgaon&apos;s premier verified retailer for high-grade disposable pod systems, refillable kits, authentic coil replacements, and imported e-liquids. Same-day express dispatch across Delhi NCR.
+            <strong>VapeeShopDelhi.com</strong> is Delhi&apos;s #1 verified retailer for 100% authentic disposable vapes, Elfbar pods, SMOK pod kits, and imported nic salts. Same-day 45-min express delivery across all Delhi zones — South, Central, West, North & East Delhi.
           </p>
           <div className="footer-contact">
             <p>📞 <strong>Helpline & WhatsApp:</strong> +91 98765 43210</p>
             <p>🕒 <strong>Dispatch Hours:</strong> 10:00 AM – 11:00 PM (All 7 Days)</p>
-            <p>⚡ <strong>Delivery SLA:</strong> 45 - 90 Mins (Delhi & Gurgaon Express)</p>
+            <p>⚡ <strong>Delhi Delivery:</strong> 45 - 90 Mins Express Same Day</p>
             <p>🌐 <strong>Official Website:</strong> vapeeshopdelhi.com</p>
           </div>
         </div>
 
         <div className="footer-col">
-          <h4>Delhi NCR Delivery Hubs</h4>
+          <h4>Vape Delivery Areas in Delhi</h4>
           <ul className="footer-links">
-            <li><Link href="/#delhi-locations">Vape Shop South Delhi (GK, Saket, Def Col)</Link></li>
-            <li><Link href="/#delhi-locations">Vape Store Connaught Place (CP Central)</Link></li>
-            <li><Link href="/#delhi-locations">Vape Delivery Hauz Khas & Green Park</Link></li>
-            <li><Link href="/#delhi-locations">Vape Shop Saket & Malviya Nagar</Link></li>
-            <li><Link href="/#delhi-locations">Vape Shop Dwarka & Rajouri Garden</Link></li>
-            <li><Link href="/#delhi-locations">Same Day Vape Delivery Noida & Indirapuram</Link></li>
-            <li><Link href="/#delhi-locations">Vape Store Gurgaon DLF Cyber City</Link></li>
+            <li><Link href="/delhi/south-delhi">Vape Shop South Delhi (GK, Saket, Def Col)</Link></li>
+            <li><Link href="/delhi/connaught-place">Vape Shop Connaught Place (CP)</Link></li>
+            <li><Link href="/delhi/hauz-khas">Vape Shop Hauz Khas & Green Park</Link></li>
+            <li><Link href="/delhi/dwarka">Vape Shop Dwarka (All Sectors)</Link></li>
+            <li><Link href="/delhi/rohini">Vape Shop Rohini & Pitampura</Link></li>
+            <li><Link href="/delhi/rajouri-garden">Vape Shop Rajouri Garden & West Delhi</Link></li>
+            <li><Link href="/delhi/mayur-vihar">Vape Shop Mayur Vihar & East Delhi</Link></li>
+            <li><Link href="/delhi/karol-bagh">Vape Shop Karol Bagh & Central Delhi</Link></li>
           </ul>
         </div>
 
@@ -77,44 +78,61 @@ export default function Footer() {
               <span className="sep">•</span>
               <Link href="/#products">vape shop delhi</Link>
               <span className="sep">•</span>
-              <Link href="/#products">vape store in delhi</Link>
-              <span className="sep">•</span>
-              <Link href="/#products">buy vape delhi</Link>
+              <Link href="/#products">buy vape in delhi</Link>
               <span className="sep">•</span>
               <Link href="/#products">disposable vape delhi</Link>
               <span className="sep">•</span>
-              <Link href="/#products">vape store gurgaon</Link>
-              <span className="sep">•</span>
-              <Link href="/#products">best vape shop near me delhi</Link>
+              <Link href="/#products">best vape shop delhi</Link>
               <span className="sep">•</span>
               <Link href="/#products">vape delivery delhi same day</Link>
               <span className="sep">•</span>
               <Link href="/products/elfbar-raya-d2-20000-disposable-pod-device">elfbar raya d2 20000 delhi</Link>
               <span className="sep">•</span>
-              <Link href="/products/smok-nord-pod-kit-1100mah">smok nord pod kit gurgaon</Link>
+              <Link href="/products/smok-nord-pod-kit-1100mah">smok nord pod kit delhi</Link>
               <span className="sep">•</span>
-              <Link href="/products/elfbar-raya-d1-disposable-pod-device-black-gold">elfbar raya d1 black gold</Link>
+              <Link href="/products/elfbar-raya-d1-disposable-pod-device-black-gold">elfbar raya d1 black gold delhi</Link>
               <span className="sep">•</span>
-              <Link href="/#delhi-locations">vape shop south delhi</Link>
+              <Link href="/delhi/south-delhi">vape shop south delhi</Link>
               <span className="sep">•</span>
-              <Link href="/#delhi-locations">vape shop connaught place</Link>
+              <Link href="/delhi/connaught-place">vape shop connaught place</Link>
               <span className="sep">•</span>
-              <Link href="/#delhi-locations">vape delivery gurgaon dlf</Link>
+              <Link href="/delhi/dwarka">vape shop dwarka delhi</Link>
               <span className="sep">•</span>
-              <Link href="/#delhi-locations">vape store noida express</Link>
+              <Link href="/delhi/rohini">vape shop rohini delhi</Link>
               <span className="sep">•</span>
-              <Link href="/#delhi-locations">vape shop dwarka</Link>
+              <Link href="/delhi/hauz-khas">vape shop hauz khas</Link>
+              <span className="sep">•</span>
+              <Link href="/delhi/greater-kailash">vape shop greater kailash</Link>
+              <span className="sep">•</span>
+              <Link href="/delhi/karol-bagh">vape shop karol bagh</Link>
+              <span className="sep">•</span>
+              <Link href="/delhi/rajouri-garden">vape shop rajouri garden</Link>
+              <span className="sep">•</span>
+              <Link href="/delhi/saket">vape shop saket delhi</Link>
+              <span className="sep">•</span>
+              <Link href="/delhi/vasant-kunj">vape shop vasant kunj</Link>
+              <span className="sep">•</span>
+              <Link href="/delhi/mayur-vihar">vape shop mayur vihar</Link>
               <span className="sep">•</span>
               <Link href="/#products">cash on delivery vape delhi</Link>
-              <span className="sep">•</span>
-              <Link href="/#products">authentic vape store delhi ncr</Link>
             </div>
           </div>
 
           <div className="seo-cloud-group" style={{ marginTop: '14px' }}>
-            <span className="seo-cloud-title">📍 Express Doorstep Areas in Delhi NCR:</span>
+            <span className="seo-cloud-title">📍 Express Doorstep Delivery Areas in Delhi:</span>
             <p className="seo-area-text">
-              Greater Kailash (GK 1 & 2), Hauz Khas, Saket, Green Park, Defence Colony, South Extension, Vasant Kunj, Connaught Place, Patel Nagar, Karol Bagh, Civil Lines, Rajouri Garden, Punjabi Bagh, Janakpuri, Dwarka Sectors 1-23, Rohini, Pitampura, DLF Phase 1-5 Gurugram, Cyber City, Golf Course Road, Sohna Road, Noida Sectors 18, 50, 62, 137, Indirapuram, Vaishali.
+              <Link href="/delhi/south-delhi">South Delhi</Link> (Greater Kailash GK1 GK2, Hauz Khas, Saket, Green Park, Defence Colony, South Extension, Lajpat Nagar) •{' '}
+              <Link href="/delhi/connaught-place">Connaught Place</Link> (CP, Janpath, Barakhamba, Mandi House, ITO) •{' '}
+              <Link href="/delhi/dwarka">Dwarka</Link> (Sector 1-23, Dwarka Mor, Uttam Nagar) •{' '}
+              <Link href="/delhi/rohini">Rohini</Link> (Sector 1-28, Pitampura, Shalimar Bagh, Ashok Vihar, NSP) •{' '}
+              <Link href="/delhi/hauz-khas">Hauz Khas</Link> (Green Park, Safdarjung, Gulmohar Park, Panchsheel) •{' '}
+              <Link href="/delhi/greater-kailash">Greater Kailash</Link> (GK1, GK2, CR Park, Kailash Colony, Alaknanda) •{' '}
+              <Link href="/delhi/karol-bagh">Karol Bagh</Link> (Patel Nagar, Rajendra Place, Gole Market) •{' '}
+              <Link href="/delhi/rajouri-garden">Rajouri Garden</Link> (Punjabi Bagh, Kirti Nagar, Tagore Garden) •{' '}
+              <Link href="/delhi/mayur-vihar">Mayur Vihar</Link> (Phase 1, 2, 3, IP Extension, Patparganj) •{' '}
+              <Link href="/delhi/laxmi-nagar">Laxmi Nagar</Link> (Vikas Marg, Vivek Vihar, Shahdara, Dilshad Garden) •{' '}
+              <Link href="/delhi/vasant-kunj">Vasant Kunj</Link> (Vasant Vihar, Munirka, RK Puram, Mahipalpur) •{' '}
+              <Link href="/delhi/saket">Saket</Link> (Malviya Nagar, Sheikh Sarai, Pushp Vihar)
             </p>
           </div>
         </div>

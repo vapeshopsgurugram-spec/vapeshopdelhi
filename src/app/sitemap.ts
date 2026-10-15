@@ -12,6 +12,17 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.9,
   }));
 
+  const delhiAreaUrls: MetadataRoute.Sitemap = [
+    'south-delhi', 'connaught-place', 'dwarka', 'rohini',
+    'hauz-khas', 'greater-kailash', 'karol-bagh', 'rajouri-garden',
+    'mayur-vihar', 'laxmi-nagar', 'vasant-kunj', 'saket'
+  ].map((area) => ({
+    url: `${baseUrl}/delhi/${area}`,
+    lastModified: new Date(),
+    changeFrequency: 'weekly' as const,
+    priority: 0.8,
+  }));
+
   return [
     {
       url: baseUrl,
@@ -20,5 +31,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 1.0,
     },
     ...productUrls,
+    ...delhiAreaUrls,
   ];
 }

@@ -262,7 +262,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
                   </tr>
                   <tr>
                     <th>Delivery Area</th>
-                    <td>South Delhi, CP, West Delhi, Noida, Gurugram</td>
+                    <td>South Delhi, CP, West Delhi, East Delhi & all Delhi zones</td>
                   </tr>
                 </tbody>
               </table>

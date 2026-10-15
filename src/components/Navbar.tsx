@@ -1,19 +1,22 @@
 'use client';
 
 import Link from 'next/link';
+import { useState } from 'react';
 
 export default function Navbar() {
+  const [areasOpen, setAreasOpen] = useState(false);
+
   return (
     <>
       {/* ANNOUNCEMENT BAR */}
       <header className="top-announcement">
         <div className="container announcement-flex">
           <span>
-            ⚡ <strong>Delhi Express Dispatch:</strong> 2-Hour Delivery in South Delhi, West Delhi, CP & NCR | WhatsApp: <strong>+91 98765 43210</strong>
+            ⚡ <strong>Delhi Express:</strong> 45-Min Delivery in South Delhi, Dwarka, CP, Rohini & All Delhi | WhatsApp: <strong>+91 98765 43210</strong>
           </span>
           <div className="announcement-tags">
             <span className="badge-pill">🔥 100% Genuine Certified</span>
-            <span className="badge-pill">🛡️ Sealed Box Guarantee</span>
+            <span className="badge-pill">🛡️ COD Available in Delhi</span>
           </div>
         </div>
       </header>
@@ -36,8 +39,42 @@ export default function Navbar() {
 
           <div className="nav-links">
             <Link href="/#products">Products</Link>
-            <Link href="/#categories">Categories</Link>
-            <Link href="/#delhi-locations">Delhi NCR Hubs</Link>
+            {/* DELHI AREAS DROPDOWN */}
+            <div
+              className="nav-dropdown-wrap"
+              onMouseEnter={() => setAreasOpen(true)}
+              onMouseLeave={() => setAreasOpen(false)}
+              style={{ position: 'relative' }}
+            >
+              <button
+                className="nav-dropdown-btn"
+                style={{ background: 'none', border: 'none', color: 'inherit', font: 'inherit', cursor: 'pointer', padding: '0' }}
+                aria-expanded={areasOpen}
+              >
+                Delhi Areas ▾
+              </button>
+              {areasOpen && (
+                <div className="nav-dropdown-menu" style={{
+                  position: 'absolute', top: '100%', left: '50%', transform: 'translateX(-50%)',
+                  background: 'var(--bg-card)', border: '1px solid var(--border-subtle)',
+                  borderRadius: 'var(--radius-md)', padding: '12px', minWidth: '220px',
+                  zIndex: 999, boxShadow: '0 8px 32px rgba(0,0,0,0.4)', marginTop: '8px'
+                }}>
+                  <Link href="/delhi/south-delhi" style={{ display: 'block', padding: '6px 10px', fontSize: '0.85rem', borderRadius: '6px' }}>📍 South Delhi</Link>
+                  <Link href="/delhi/connaught-place" style={{ display: 'block', padding: '6px 10px', fontSize: '0.85rem', borderRadius: '6px' }}>📍 Connaught Place</Link>
+                  <Link href="/delhi/hauz-khas" style={{ display: 'block', padding: '6px 10px', fontSize: '0.85rem', borderRadius: '6px' }}>📍 Hauz Khas</Link>
+                  <Link href="/delhi/greater-kailash" style={{ display: 'block', padding: '6px 10px', fontSize: '0.85rem', borderRadius: '6px' }}>📍 Greater Kailash</Link>
+                  <Link href="/delhi/saket" style={{ display: 'block', padding: '6px 10px', fontSize: '0.85rem', borderRadius: '6px' }}>📍 Saket</Link>
+                  <Link href="/delhi/dwarka" style={{ display: 'block', padding: '6px 10px', fontSize: '0.85rem', borderRadius: '6px' }}>📍 Dwarka</Link>
+                  <Link href="/delhi/rohini" style={{ display: 'block', padding: '6px 10px', fontSize: '0.85rem', borderRadius: '6px' }}>📍 Rohini</Link>
+                  <Link href="/delhi/karol-bagh" style={{ display: 'block', padding: '6px 10px', fontSize: '0.85rem', borderRadius: '6px' }}>📍 Karol Bagh</Link>
+                  <Link href="/delhi/rajouri-garden" style={{ display: 'block', padding: '6px 10px', fontSize: '0.85rem', borderRadius: '6px' }}>📍 Rajouri Garden</Link>
+                  <Link href="/delhi/mayur-vihar" style={{ display: 'block', padding: '6px 10px', fontSize: '0.85rem', borderRadius: '6px' }}>📍 Mayur Vihar</Link>
+                  <Link href="/delhi/vasant-kunj" style={{ display: 'block', padding: '6px 10px', fontSize: '0.85rem', borderRadius: '6px' }}>📍 Vasant Kunj</Link>
+                  <Link href="/delhi/laxmi-nagar" style={{ display: 'block', padding: '6px 10px', fontSize: '0.85rem', borderRadius: '6px' }}>📍 Laxmi Nagar</Link>
+                </div>
+              )}
+            </div>
             <Link href="/#why-us">Why #1</Link>
             <Link href="/#faq">FAQ</Link>
             <Link href="/#seo-guide">Delhi Guide</Link>
@@ -61,3 +98,4 @@ export default function Navbar() {
     </>
   );
 }
+
