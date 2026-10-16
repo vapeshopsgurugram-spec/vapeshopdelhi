@@ -21,7 +21,7 @@ export default function Footer() {
             <strong>VapeeShopDelhi.com</strong> is Delhi&apos;s #1 verified retailer for 100% authentic disposable vapes, Elfbar pods, SMOK pod kits, and imported nic salts. Same-day 45-min express delivery across all Delhi zones — South, Central, West, North & East Delhi.
           </p>
           <div className="footer-contact">
-            <p>📞 <strong>Helpline & WhatsApp:</strong> +91 98765 43210</p>
+            <p>📞 <strong>Helpline & WhatsApp:</strong> +91 88169 64412</p>
             <p>🕒 <strong>Dispatch Hours:</strong> 10:00 AM – 11:00 PM (All 7 Days)</p>
             <p>⚡ <strong>Delhi Delivery:</strong> 45 - 90 Mins Express Same Day</p>
             <p>🌐 <strong>Official Website:</strong> vapeeshopdelhi.com</p>

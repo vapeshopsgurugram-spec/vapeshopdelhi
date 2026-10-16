@@ -34,7 +34,7 @@ export default function HomePage() {
                 Explore Live Collection
               </a>
               <a
-                href="https://wa.me/919876543210?text=Hello%20Vape%20Shop%20Delhi%2C%20please%20send%20today's%20menu%20and%20prices"
+                href="https://wa.me/918816964412?text=Hello%20Vape%20Shop%20Delhi%2C%20please%20send%20today's%20menu%20and%20prices"
                 className="btn btn-outline btn-large"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -135,7 +135,7 @@ export default function HomePage() {
               Looking for a specific model, coil, or salt nic flavor not listed? We stock 100+ items at our Delhi warehouse — Elfbar, SMOK, Uwell, Vaporesso & more!
             </p>
             <a
-              href="https://wa.me/919876543210?text=Hello%20Vape%20Shop%20Delhi%21%20I%20want%20to%20see%20the%20full%20menu%20of%20available%20products%20for%20delivery%20in%20Delhi."
+              href="https://wa.me/918816964412?text=Hello%20Vape%20Shop%20Delhi%21%20I%20want%20to%20see%20the%20full%20menu%20of%20available%20products%20for%20delivery%20in%20Delhi."
               className="btn btn-whatsapp"
               target="_blank"
               rel="noopener noreferrer"

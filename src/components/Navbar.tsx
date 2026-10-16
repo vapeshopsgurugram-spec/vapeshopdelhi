@@ -82,7 +82,7 @@ export default function Navbar() {
 
           <div className="nav-cta">
             <a
-              href="https://wa.me/919876543210?text=Hi%20Vape%20Shop%20Delhi%2C%20I%20want%20to%20order%20vapes%20in%20Delhi"
+              href="https://wa.me/918816964412?text=Hi%20Vape%20Shop%20Delhi%2C%20I%20want%20to%20order%20vapes%20in%20Delhi"
               className="btn btn-whatsapp"
               target="_blank"
               rel="noopener noreferrer"

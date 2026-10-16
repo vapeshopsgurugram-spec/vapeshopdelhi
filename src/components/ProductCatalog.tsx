@@ -139,8 +139,8 @@ export default function ProductCatalog({ products }: ProductCatalogProps) {
                   Details
                 </Link>
                 <a
-                  href={`https://wa.me/919876543210?text=${encodeURIComponent(
-                    `Hi Vape Store, I want to order *${product.name}* (Price: ₹${product.price}) with fast express delivery in Gurgaon/Delhi NCR.`
+                  href={`https://wa.me/918816964412?text=${encodeURIComponent(
+                    `Hi Vape Store Delhi, I want to order *${product.name}* (Price: ₹${product.price}) with fast express delivery in Delhi NCR.`
                   )}`}
                   className="btn-card-whatsapp"
                   target="_blank"

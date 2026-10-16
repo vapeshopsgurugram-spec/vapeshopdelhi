@@ -205,7 +205,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
               {/* ACTION BUTTONS */}
               <div className="detail-actions">
                 <a
-                  href={`https://wa.me/919876543210?text=${waMessage}`}
+                  href={`https://wa.me/918816964412?text=${waMessage}`}
                   className="btn btn-whatsapp btn-large"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -215,8 +215,8 @@ export default async function ProductDetailPage({ params }: PageProps) {
                   </svg>
                   <span>Order Now on WhatsApp (Instant Reply)</span>
                 </a>
-                <a href="tel:+919876543210" className="btn btn-outline">
-                  📞 Call Store Helpline: +91 98765 43210
+                <a href="tel:+918816964412" className="btn btn-outline">
+                  📞 Call Store Helpline: +91 88169 64412
                 </a>
               </div>
 

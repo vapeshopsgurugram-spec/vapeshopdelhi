@@ -143,7 +143,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       title: areaInfo.title,
       description: areaInfo.description,
       url: `https://vapeeshopdelhi.com/delhi/${area}`,
-      images: [{ url: 'https://vapeeshopdelhi.com/og-banner.jpg', width: 1200, height: 630 }]
+      images: [
+        { url: 'https://vapeeshopdelhi.com/images/products/elfbar-raya-d2-20000.jpg', width: 800, height: 800, alt: areaInfo.title },
+        { url: 'https://vapeeshopdelhi.com/og-banner.jpg', width: 1200, height: 630 }
+      ]
     }
   };
 }
@@ -163,7 +166,7 @@ export default async function DelhiAreaPage({ params }: PageProps) {
     name: `VapeeShopDelhi - Vape Shop ${areaInfo.name}`,
     description: areaInfo.description,
     url: `https://vapeeshopdelhi.com/delhi/${area}`,
-    telephone: '+919876543210',
+    telephone: '+918816964412',
     areaServed: areaInfo.localities.map(loc => ({ '@type': 'Place', name: loc })),
     address: {
       '@type': 'PostalAddress',
@@ -197,7 +200,7 @@ export default async function DelhiAreaPage({ params }: PageProps) {
             </p>
             <div className="hero-buttons">
               <a
-                href={`https://wa.me/919876543210?text=${waMessage}`}
+                href={`https://wa.me/918816964412?text=${waMessage}`}
                 className="btn btn-whatsapp btn-large"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -310,7 +313,7 @@ export default async function DelhiAreaPage({ params }: PageProps) {
           </p>
           <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
             <a
-              href={`https://wa.me/919876543210?text=${waMessage}`}
+              href={`https://wa.me/918816964412?text=${waMessage}`}
               className="btn btn-whatsapp btn-large"
               target="_blank"
               rel="noopener noreferrer"

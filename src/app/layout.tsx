@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: '%s | Vape Shop Delhi'
   },
   description:
-    'Buy 100% authentic disposable vapes, Elfbar, SMOK pod kits & nic salts in Delhi. 45-min express delivery across South Delhi, Connaught Place, Dwarka & all of Delhi. COD available. Order on WhatsApp!',
+    'Best Vape Shop in Delhi. Call/WhatsApp 8816964412 for 45-min doorstep delivery across Delhi NCR. Buy authentic disposable vapes, Elfbar, SMOK & nic salts online. Cash on delivery (COD) available!',
   keywords: [
     'vape shop delhi',
     'vape store delhi',
@@ -70,6 +70,12 @@ export const metadata: Metadata = {
       'Buy 100% authentic disposable vapes, Elfbar, SMOK pod kits & nic salts in Delhi. 45-min express delivery across South Delhi, Connaught Place, Dwarka & all of Delhi. COD available!',
     images: [
       {
+        url: 'https://vapeeshopdelhi.com/images/products/elfbar-raya-d2-20000.jpg',
+        width: 800,
+        height: 800,
+        alt: 'Vape Shop Delhi - Authentic Vapes'
+      },
+      {
         url: 'https://vapeeshopdelhi.com/og-banner.jpg',
         width: 1200,
         height: 630,
@@ -113,11 +119,14 @@ const localBusinessSchema = {
   name: 'VapeeShopDelhi – Best Vape Shop in Delhi',
   alternateName: ['Vape Shop Delhi', 'Best Vape Store Delhi', 'Vapee Shop Delhi'],
   description: 'Delhi #1 Vape Shop — 100% Authentic Disposable Vapes, Elfbar, SMOK Pod Kits & Nic Salts with 45-Min Express Delivery across all of Delhi. COD Available.',
-  image: 'https://vapeeshopdelhi.com/og-banner.jpg',
+  image: [
+    'https://vapeeshopdelhi.com/images/products/elfbar-raya-d2-20000.jpg',
+    'https://vapeeshopdelhi.com/og-banner.jpg'
+  ],
   logo: 'https://vapeeshopdelhi.com/favicon.png',
   '@id': 'https://vapeeshopdelhi.com/#store',
   url: 'https://vapeeshopdelhi.com',
-  telephone: '+919876543210',
+  telephone: '+918816964412',
   priceRange: '₹₹',
   address: {
     '@type': 'PostalAddress',
