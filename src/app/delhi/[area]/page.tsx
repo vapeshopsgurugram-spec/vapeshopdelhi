@@ -120,6 +120,60 @@ const DELHI_AREAS: Record<string, AreaInfo> = {
     localities: ['Saket', 'Malviya Nagar', 'Sheikh Sarai', 'Pushp Vihar', 'Neb Sarai', 'Press Enclave Marg'],
     pinCodes: ['110017', '110068'],
     landmark: 'Select City Walk Mall, Saket'
+  },
+  'gurgaon': {
+    name: 'Gurgaon',
+    title: 'Vape Shop Gurgaon | Buy Vapes Gurugram | 60-Min Express Delivery',
+    description: 'Buy 100% authentic disposable vapes in Gurgaon (Gurugram). Elfbar, SMOK pod kits with 60-min express delivery to Cyber City, Golf Course Road, Sector 29, Sohna Road. COD available.',
+    deliveryTime: '60 Minutes',
+    localities: ['DLF Phase 1-5', 'Cyber City', 'Golf Course Road', 'Golf Course Extension', 'Sector 29', 'Sector 56', 'Sohna Road', 'MG Road Gurgaon'],
+    pinCodes: ['122001', '122002', '122009', '122018'],
+    landmark: 'Cyber Hub, DLF Cyber City'
+  },
+  'noida': {
+    name: 'Noida',
+    title: 'Vape Shop Noida | Buy Vapes in Noida | 60-Min Express Delivery',
+    description: 'Buy authentic vapes in Noida & Greater Noida. Elfbar Raya D2, SMOK kits with 60-min delivery to Sector 18, Sector 62, Sector 137, Noida Expressway. COD available.',
+    deliveryTime: '60 Minutes',
+    localities: ['Noida Sector 18', 'Sector 62', 'Sector 50', 'Sector 76', 'Sector 137', 'Noida Expressway', 'Greater Noida West'],
+    pinCodes: ['201301', '201309', '201307'],
+    landmark: 'Mall of India, Sector 18'
+  },
+  'punjabi-bagh': {
+    name: 'Punjabi Bagh',
+    title: 'Vape Shop Punjabi Bagh Delhi | Buy Vapes West Delhi | 45-Min Delivery',
+    description: 'Buy 100% genuine vapes in Punjabi Bagh, West Delhi. Elfbar, SMOK pod kits with 45-min express delivery to Punjabi Bagh Club Road, Paschim Vihar, Madipur. COD available.',
+    deliveryTime: '45 Minutes',
+    localities: ['Punjabi Bagh East', 'Punjabi Bagh West', 'Club Road', 'Paschim Vihar', 'Madipur', 'Shivaji Park'],
+    pinCodes: ['110026', '110063'],
+    landmark: 'Punjabi Bagh Club Road'
+  },
+  'pitampura': {
+    name: 'Pitampura',
+    title: 'Vape Shop Pitampura Delhi | Buy Vapes NSP | 50-Min Delivery',
+    description: 'Buy authentic vapes in Pitampura, North-West Delhi. Elfbar, SMOK pod kits with 50-min express delivery to Netaji Subhash Place (NSP), Kohat Enclave, Rani Bagh. COD available.',
+    deliveryTime: '50 Minutes',
+    localities: ['Netaji Subhash Place (NSP)', 'Kohat Enclave', 'Rani Bagh', 'Saraswati Vihar', 'Lok Vihar', 'Kapil Vihar'],
+    pinCodes: ['110034'],
+    landmark: 'Netaji Subhash Place Metro'
+  },
+  'janakpuri': {
+    name: 'Janakpuri',
+    title: 'Vape Shop Janakpuri Delhi | Buy Vapes in Janakpuri | 50-Min Delivery',
+    description: 'Buy authentic vapes in Janakpuri, West Delhi. Elfbar, SMOK pod kits with 50-min express delivery to District Centre, Tilak Nagar, Vikaspuri. Cash on Delivery available.',
+    deliveryTime: '50 Minutes',
+    localities: ['Janakpuri District Centre', 'Janakpuri Block A-D', 'Tilak Nagar', 'Vikaspuri', 'Uttam Nagar East', 'Hari Nagar'],
+    pinCodes: ['110058', '110018'],
+    landmark: 'Janakpuri District Centre'
+  },
+  'aerocity': {
+    name: 'Aerocity',
+    title: 'Vape Shop Aerocity Delhi | 24/7 Vape Delivery Near Airport | 30-Min Delivery',
+    description: 'Buy 100% authentic vapes near IGI Delhi Airport and Aerocity. 30-min rapid doorstep delivery to Worldmark Aerocity hotels, Mahipalpur & Airport Terminals. COD available.',
+    deliveryTime: '30 Minutes',
+    localities: ['Aerocity Worldmark', 'Aerocity Hospitality District', 'Mahipalpur', 'IGI Airport Terminal 3', 'Terminal 1', 'Rangpuri'],
+    pinCodes: ['110037'],
+    landmark: 'Worldmark Aerocity'
   }
 };
 
@@ -177,11 +231,40 @@ export default async function DelhiAreaPage({ params }: PageProps) {
     }
   };
 
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: [
+      {
+        '@type': 'ListItem',
+        position: 1,
+        name: 'Home',
+        item: 'https://vapeeshopdelhi.com'
+      },
+      {
+        '@type': 'ListItem',
+        position: 2,
+        name: 'Delhi Vape Delivery Zones',
+        item: 'https://vapeeshopdelhi.com/#delhi-locations'
+      },
+      {
+        '@type': 'ListItem',
+        position: 3,
+        name: `Vape Shop ${areaInfo.name}`,
+        item: `https://vapeeshopdelhi.com/delhi/${area}`
+      }
+    ]
+  };
+
   return (
     <main>
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(areaSchema) }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
       />
 
       {/* AREA HERO */}
@@ -295,9 +378,9 @@ export default async function DelhiAreaPage({ params }: PageProps) {
               </p>
               <h3>Popular Vapes Available for Delivery in {areaInfo.name}</h3>
               <ul>
-                <li><strong>Elfbar Raya D2 20000 (₹1,800)</strong> — 20,000 puffs, dual mode, smart screen. #1 seller in {areaInfo.name}.</li>
-                <li><strong>SMOK Nord 1100mAh (₹3,500)</strong> — Refillable pod kit, best long-term value for {areaInfo.name} vapers.</li>
-                <li><strong>Elfbar Raya D1 Black Gold (₹1,650)</strong> — 13,000 puffs, luxury Black Gold edition, available in {areaInfo.name}.</li>
+                <li><Link href="/products/elfbar-raya-d2-20000" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}><strong>Elfbar Raya D2 20000 (₹1,800)</strong></Link> — 20,000 puffs, dual mode, smart screen. #1 bestseller in {areaInfo.name}.</li>
+                <li><Link href="/products/smok-nord-pod-kit" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}><strong>SMOK Nord 1100mAh (₹3,500)</strong></Link> — Refillable pod kit, best long-term value for {areaInfo.name} vapers.</li>
+                <li><Link href="/products/elfbar-raya-d1-black-gold" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}><strong>Elfbar Raya D1 Black Gold (₹1,650)</strong></Link> — 13,000 puffs, luxury Black Gold edition, available in {areaInfo.name}.</li>
               </ul>
             </article>
           </div>

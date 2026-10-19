@@ -19,6 +19,17 @@ export const metadata: Metadata = {
     'disposable vape delhi',
     'best vape shop delhi',
     'vape shop near me delhi',
+    'vape shop open now delhi',
+    'late night vape delivery delhi',
+    '24 hour vape delivery delhi',
+    'vape delivery gurgaon',
+    'vape shop gurgaon',
+    'vape delivery noida',
+    'vape shop noida',
+    'vape delivery aerocity',
+    'vape shop punjabi bagh',
+    'vape shop pitampura',
+    'vape shop janakpuri',
     'elfbar delhi',
     'smok delhi',
     'vape delivery delhi',
@@ -135,6 +146,9 @@ const localBusinessSchema = {
   url: 'https://vapeeshopdelhi.com',
   telephone: '+918816964412',
   priceRange: '₹₹',
+  currenciesAccepted: 'INR',
+  paymentAccepted: 'Cash on Delivery, UPI, Google Pay, PhonePe, Paytm',
+  hasMap: 'https://maps.google.com/?q=28.5482,77.2343',
   address: {
     '@type': 'PostalAddress',
     streetAddress: 'M Block, Greater Kailash 1',
@@ -152,8 +166,8 @@ const localBusinessSchema = {
     {
       '@type': 'OpeningHoursSpecification',
       dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
-      opens: '10:00',
-      closes: '23:00'
+      opens: '09:00',
+      closes: '02:00'
     }
   ],
   areaServed: [
@@ -169,7 +183,13 @@ const localBusinessSchema = {
     { '@type': 'AdministrativeArea', name: 'Hauz Khas' },
     { '@type': 'AdministrativeArea', name: 'Saket' },
     { '@type': 'AdministrativeArea', name: 'Rohini' },
-    { '@type': 'AdministrativeArea', name: 'Vasant Kunj' }
+    { '@type': 'AdministrativeArea', name: 'Vasant Kunj' },
+    { '@type': 'AdministrativeArea', name: 'Gurgaon' },
+    { '@type': 'AdministrativeArea', name: 'Noida' },
+    { '@type': 'AdministrativeArea', name: 'Punjabi Bagh' },
+    { '@type': 'AdministrativeArea', name: 'Pitampura' },
+    { '@type': 'AdministrativeArea', name: 'Janakpuri' },
+    { '@type': 'AdministrativeArea', name: 'Aerocity' }
   ]
 };
 
@@ -271,6 +291,30 @@ const faqSchema = {
       acceptedAnswer: {
         '@type': 'Answer',
         text: 'Disposable vapes (Elfbar Raya D2 20000 at Rs 1800) are best for beginners wanting zero maintenance. Refillable pod kits (SMOK Nord at Rs 3500) offer better long-term value for regular Delhi vapers. WhatsApp our Delhi team for personalized recommendations.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Is late night vape delivery available in Delhi NCR?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes! VapeeShopDelhi.com provides late night express vape delivery across Delhi NCR, Aerocity, Gurgaon, and Noida. Orders confirmed via WhatsApp are dispatched rapidly with express delivery partners.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Where can I find an authentic vape shop open now near me in Delhi?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'VapeeShopDelhi.com operates 7 days a week with doorstep delivery across all Delhi localities. You do not need to search for physical shops that might sell counterfeit goods—order directly on WhatsApp for 100% genuine vapes with scratch code verification.'
+      }
+    },
+    {
+      '@type': 'Question',
+      name: 'Do you deliver vapes to Gurgaon (Gurugram) and Noida?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Yes! We offer 60-minute express vape delivery across Gurgaon (DLF Phase 1-5, Cyber City, Golf Course Road, Sohna Road) and Noida (Sector 18, 62, 137). Cash on Delivery (COD) is available across Delhi NCR.'
       }
     }
   ]

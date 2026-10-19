@@ -15,12 +15,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
   const delhiAreaUrls: MetadataRoute.Sitemap = [
     'south-delhi', 'connaught-place', 'dwarka', 'rohini',
     'hauz-khas', 'greater-kailash', 'karol-bagh', 'rajouri-garden',
-    'mayur-vihar', 'laxmi-nagar', 'vasant-kunj', 'saket'
+    'mayur-vihar', 'laxmi-nagar', 'vasant-kunj', 'saket',
+    'gurgaon', 'noida', 'punjabi-bagh', 'pitampura', 'janakpuri', 'aerocity'
   ].map((area) => ({
     url: `${baseUrl}/delhi/${area}`,
     lastModified: new Date(),
     changeFrequency: 'weekly' as const,
-    priority: 0.8,
+    priority: 0.85,
   }));
 
   return [

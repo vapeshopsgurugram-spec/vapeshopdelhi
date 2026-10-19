@@ -53,8 +53,12 @@ const FAQ_DATA: FaqItem[] = [
     answer: 'Ordering is simple: (1) Browse our Delhi collection above and choose your product & flavor. (2) Click "Order on WhatsApp" and share your Delhi delivery address. (3) Our Delhi delivery partner dispatches within 30 minutes. Pay via UPI or Cash on Delivery when it arrives. We\'re available 10 AM to 11 PM, 7 days a week.'
   },
   {
-    question: 'Do you provide same-day vape delivery in North Delhi areas like Rohini and Pitampura?',
-    answer: 'Yes, we deliver to North Delhi including Rohini (all sectors), Pitampura, Shalimar Bagh, Ashok Vihar, Netaji Subhash Place (NSP), and Narela. Delivery to North Delhi takes approximately 75-90 minutes after order confirmation on WhatsApp.'
+    question: 'Is late night vape delivery available in Delhi NCR & Aerocity?',
+    answer: 'Yes! We provide late night express vape delivery across Delhi NCR, Aerocity Worldmark, Gurgaon, and Noida. Orders confirmed via WhatsApp are dispatched rapidly via our dedicated night delivery riders.'
+  },
+  {
+    question: 'Do you deliver vapes to Gurgaon (Gurugram) and Noida?',
+    answer: 'Yes! We provide 60-minute express vape delivery across Gurgaon (DLF Phase 1-5, Cyber City, Golf Course Road, Sohna Road) and Noida (Sector 18, 62, 137). Cash on Delivery (COD) is available across Delhi NCR.'
   }
 ];
 
@@ -66,21 +70,38 @@ export default function FaqAccordion() {
   };
 
   return (
-    <div className="faq-list">
+    <div className="space-y-3 max-w-4xl mx-auto">
       {FAQ_DATA.map((item, idx) => {
         const isOpen = openIndex === idx;
         return (
-          <div key={idx} className={`faq-item ${isOpen ? 'active' : ''}`}>
+          <div
+            key={idx}
+            className={`rounded-2xl transition-all border ${
+              isOpen
+                ? 'bg-obsidian-900/90 border-brand-cyan/40 shadow-glow'
+                : 'bg-obsidian-900/50 border-white/5 hover:border-white/15'
+            }`}
+          >
             <button
-              className="faq-question"
+              className="w-full py-4 px-4 sm:px-6 text-left flex items-center justify-between gap-4 cursor-pointer focus:outline-none"
               onClick={() => toggle(idx)}
               aria-expanded={isOpen}
             >
-              <span>{item.question}</span>
-              <span className="faq-toggle">{isOpen ? '−' : '+'}</span>
+              <span className="font-heading font-bold text-sm sm:text-base text-white">
+                {item.question}
+              </span>
+              <span
+                className={`w-6 h-6 rounded-full flex items-center justify-center shrink-0 text-sm font-bold transition-transform ${
+                  isOpen
+                    ? 'bg-brand-cyan text-obsidian-950 rotate-180'
+                    : 'bg-white/10 text-slate-300'
+                }`}
+              >
+                {isOpen ? '−' : '+'}
+              </span>
             </button>
             {isOpen && (
-              <div className="faq-answer">
+              <div className="px-4 sm:px-6 pb-5 pt-1 text-slate-300 text-xs sm:text-sm leading-relaxed border-t border-white/5">
                 <p>{item.answer}</p>
               </div>
             )}
