@@ -70,16 +70,22 @@ export const metadata: Metadata = {
       'Buy 100% authentic disposable vapes, Elfbar, SMOK pod kits & nic salts in Delhi. 45-min express delivery across South Delhi, Connaught Place, Dwarka & all of Delhi. COD available!',
     images: [
       {
+        url: 'https://vapeeshopdelhi.com/logo.png',
+        width: 1024,
+        height: 1024,
+        alt: 'Vape Shop Delhi - Official Logo'
+      },
+      {
+        url: 'https://vapeeshopdelhi.com/og-banner.jpg',
+        width: 1376,
+        height: 768,
+        alt: 'Vape Shop Delhi - Buy Authentic Vapes Online'
+      },
+      {
         url: 'https://vapeeshopdelhi.com/images/products/elfbar-raya-d2-20000.jpg',
         width: 800,
         height: 800,
         alt: 'Vape Shop Delhi - Authentic Vapes'
-      },
-      {
-        url: 'https://vapeeshopdelhi.com/og-banner.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Vape Shop Delhi - Buy Authentic Vapes Online'
       }
     ]
   },
@@ -120,10 +126,11 @@ const localBusinessSchema = {
   alternateName: ['Vape Shop Delhi', 'Best Vape Store Delhi', 'Vapee Shop Delhi'],
   description: 'Delhi #1 Vape Shop — 100% Authentic Disposable Vapes, Elfbar, SMOK Pod Kits & Nic Salts with 45-Min Express Delivery across all of Delhi. COD Available.',
   image: [
-    'https://vapeeshopdelhi.com/images/products/elfbar-raya-d2-20000.jpg',
-    'https://vapeeshopdelhi.com/og-banner.jpg'
+    'https://vapeeshopdelhi.com/logo.png',
+    'https://vapeeshopdelhi.com/og-banner.jpg',
+    'https://vapeeshopdelhi.com/images/products/elfbar-raya-d2-20000.jpg'
   ],
-  logo: 'https://vapeeshopdelhi.com/favicon.png',
+  logo: 'https://vapeeshopdelhi.com/logo.png',
   '@id': 'https://vapeeshopdelhi.com/#store',
   url: 'https://vapeeshopdelhi.com',
   telephone: '+918816964412',
