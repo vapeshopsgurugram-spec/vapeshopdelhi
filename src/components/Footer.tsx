@@ -4,7 +4,7 @@ export default function Footer() {
   return (
     <footer className="bg-obsidian-950 border-t border-white/10 pt-12 pb-24 sm:pb-12 text-slate-400 text-xs">
       <div className="max-w-7xl mx-auto px-4 sm:px-6">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
           {/* BRAND COLUMN */}
           <div>
             <Link href="/" className="flex items-center gap-2.5 mb-4 group" aria-label="Vape Shop Delhi Home">
@@ -30,20 +30,30 @@ export default function Footer() {
           </div>
 
           {/* DELIVERY AREAS */}
-          <div>
+          <div className="lg:col-span-2">
             <h4 className="font-heading font-bold text-sm text-white mb-3.5 tracking-tight">
-              Delhi Delivery Areas
+              All 18 Delhi NCR Delivery Areas (45-60 Min Express)
             </h4>
-            <ul className="space-y-2 text-xs">
-              <li><Link href="/delhi/south-delhi" className="hover:text-brand-cyan transition-colors">Vape Shop South Delhi (GK, Saket)</Link></li>
-              <li><Link href="/delhi/connaught-place" className="hover:text-brand-cyan transition-colors">Vape Shop Connaught Place (CP)</Link></li>
-              <li><Link href="/delhi/hauz-khas" className="hover:text-brand-cyan transition-colors">Vape Shop Hauz Khas &amp; Green Park</Link></li>
-              <li><Link href="/delhi/dwarka" className="hover:text-brand-cyan transition-colors">Vape Shop Dwarka (All Sectors)</Link></li>
-              <li><Link href="/delhi/rohini" className="hover:text-brand-cyan transition-colors">Vape Shop Rohini &amp; Pitampura</Link></li>
-              <li><Link href="/delhi/rajouri-garden" className="hover:text-brand-cyan transition-colors">Vape Shop Rajouri Garden &amp; West</Link></li>
-              <li><Link href="/delhi/mayur-vihar" className="hover:text-brand-cyan transition-colors">Vape Shop Mayur Vihar &amp; East</Link></li>
-              <li><Link href="/delhi/karol-bagh" className="hover:text-brand-cyan transition-colors">Vape Shop Karol Bagh &amp; Central</Link></li>
-            </ul>
+            <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-3 gap-y-1.5 text-xs">
+              <Link href="/delhi/south-delhi" className="hover:text-brand-cyan transition-colors">Vape Shop South Delhi</Link>
+              <Link href="/delhi/greater-kailash" className="hover:text-brand-cyan transition-colors">Vape Shop Greater Kailash</Link>
+              <Link href="/delhi/saket" className="hover:text-brand-cyan transition-colors">Vape Shop Saket</Link>
+              <Link href="/delhi/hauz-khas" className="hover:text-brand-cyan transition-colors">Vape Shop Hauz Khas</Link>
+              <Link href="/delhi/vasant-kunj" className="hover:text-brand-cyan transition-colors">Vape Shop Vasant Kunj</Link>
+              <Link href="/delhi/connaught-place" className="hover:text-brand-cyan transition-colors">Vape Shop Connaught Place</Link>
+              <Link href="/delhi/karol-bagh" className="hover:text-brand-cyan transition-colors">Vape Shop Karol Bagh</Link>
+              <Link href="/delhi/dwarka" className="hover:text-brand-cyan transition-colors">Vape Shop Dwarka</Link>
+              <Link href="/delhi/rajouri-garden" className="hover:text-brand-cyan transition-colors">Vape Shop Rajouri Garden</Link>
+              <Link href="/delhi/punjabi-bagh" className="hover:text-brand-cyan transition-colors">Vape Shop Punjabi Bagh</Link>
+              <Link href="/delhi/janakpuri" className="hover:text-brand-cyan transition-colors">Vape Shop Janakpuri</Link>
+              <Link href="/delhi/rohini" className="hover:text-brand-cyan transition-colors">Vape Shop Rohini</Link>
+              <Link href="/delhi/pitampura" className="hover:text-brand-cyan transition-colors">Vape Shop Pitampura</Link>
+              <Link href="/delhi/mayur-vihar" className="hover:text-brand-cyan transition-colors">Vape Shop Mayur Vihar</Link>
+              <Link href="/delhi/laxmi-nagar" className="hover:text-brand-cyan transition-colors">Vape Shop Laxmi Nagar</Link>
+              <Link href="/delhi/aerocity" className="hover:text-brand-cyan transition-colors">⚡ Vape Shop Aerocity 24/7</Link>
+              <Link href="/delhi/gurgaon" className="hover:text-brand-cyan transition-colors">Vape Shop Gurgaon</Link>
+              <Link href="/delhi/noida" className="hover:text-brand-cyan transition-colors">Vape Shop Noida</Link>
+            </div>
           </div>
 
           {/* TOP SELLERS */}

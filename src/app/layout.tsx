@@ -65,12 +65,18 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: '/favicon.ico', sizes: 'any' },
-      { url: '/favicon.png', type: 'image/png' },
-      { url: '/icon.png', type: 'image/png' }
+      { url: '/icon-48.png', sizes: '48x48', type: 'image/png' },
+      { url: '/icon-96.png', sizes: '96x96', type: 'image/png' },
+      { url: '/icon-192.png', sizes: '192x192', type: 'image/png' },
+      { url: '/icon-512.png', sizes: '512x512', type: 'image/png' },
+      { url: '/favicon.png', sizes: '48x48', type: 'image/png' }
     ],
-    apple: '/apple-icon.png',
+    apple: [
+      { url: '/apple-icon.png', sizes: '180x180', type: 'image/png' }
+    ],
     shortcut: '/favicon.ico'
   },
+  manifest: '/manifest.webmanifest',
   openGraph: {
     type: 'website',
     locale: 'en_IN',
@@ -168,6 +174,36 @@ const localBusinessSchema = {
       dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
       opens: '09:00',
       closes: '02:00'
+    }
+  ],
+  aggregateRating: {
+    '@type': 'AggregateRating',
+    ratingValue: '4.9',
+    reviewCount: '1840',
+    bestRating: '5',
+    worstRating: '1'
+  },
+  review: [
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'Rohit K.' },
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      reviewBody: 'Ordered Elfbar Raya D2 to Greater Kailash 2 at 7 PM, received by 8:15 PM! Scratch code verified original. Best vape shop in Delhi.',
+      datePublished: '2026-09-10'
+    },
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'Aman S.' },
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      reviewBody: 'Finally a genuine vape shop in Delhi with authentic Caliburn G3 pods. Packaging was completely discreet. 10/10!',
+      datePublished: '2026-09-18'
+    },
+    {
+      '@type': 'Review',
+      author: { '@type': 'Person', name: 'Nikhil K.' },
+      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
+      reviewBody: 'Ordered Elfbar Raya D2 to Mayur Vihar Phase 1 at 9 PM, arrived by 10:10 PM! Packaging was discreet. Best vape shop in Delhi!',
+      datePublished: '2026-10-01'
     }
   ],
   areaServed: [
@@ -320,43 +356,6 @@ const faqSchema = {
   ]
 };
 
-const reviewSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'LocalBusiness',
-  '@id': 'https://vapeeshopdelhi.com/#store',
-  name: 'VapeeShopDelhi – Best Vape Shop in Delhi',
-  aggregateRating: {
-    '@type': 'AggregateRating',
-    ratingValue: '4.9',
-    reviewCount: '1840',
-    bestRating: '5',
-    worstRating: '1'
-  },
-  review: [
-    {
-      '@type': 'Review',
-      author: { '@type': 'Person', name: 'Rohit K.' },
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'Ordered Elfbar Raya D2 to Greater Kailash 2 at 7 PM, received by 8:15 PM! Scratch code verified original. Best vape shop in Delhi.',
-      datePublished: '2026-09-10'
-    },
-    {
-      '@type': 'Review',
-      author: { '@type': 'Person', name: 'Aman S.' },
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'Finally a genuine vape shop in Delhi with authentic Caliburn G3 pods. Packaging was completely discreet. 10/10!',
-      datePublished: '2026-09-18'
-    },
-    {
-      '@type': 'Review',
-      author: { '@type': 'Person', name: 'Nikhil K.' },
-      reviewRating: { '@type': 'Rating', ratingValue: '5', bestRating: '5' },
-      reviewBody: 'Ordered Elfbar Raya D2 to Mayur Vihar Phase 1 at 9 PM, arrived by 10:10 PM! Packaging was discreet. Best vape shop in Delhi!',
-      datePublished: '2026-10-01'
-    }
-  ]
-};
-
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -372,15 +371,17 @@ export default function RootLayout({
           rel="stylesheet"
         />
         <link rel="icon" href="/favicon.ico" sizes="any" />
-        <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
-        <link rel="apple-touch-icon" href="/apple-icon.png" />
-        <link rel="shortcut icon" href="/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="48x48" href="/icon-48.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="/icon-96.png" />
+        <link rel="icon" type="image/png" sizes="192x192" href="/icon-192.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon.png" />
+        <link rel="manifest" href="/site.webmanifest" />
         {/* WEBSITE SCHEMA WITH SEARCHACTION */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(websiteSchema) }}
         />
-        {/* LOCAL BUSINESS SCHEMA */}
+        {/* LOCAL BUSINESS SCHEMA WITH RATINGS & REVIEWS */}
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
@@ -389,11 +390,6 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
-        />
-        {/* REVIEW + AGGREGATE RATING SCHEMA - Shows ⭐4.9 stars in Google search results */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(reviewSchema) }}
         />
       </head>
       <body>

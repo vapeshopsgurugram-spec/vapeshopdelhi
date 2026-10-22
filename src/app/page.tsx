@@ -337,6 +337,33 @@ export default function HomePage() {
               </div>
             </Link>
           </div>
+
+          {/* ALL 18 LOCALITY QUICK-LINKS FOR SEARCH ENGINES & USERS */}
+          <div className="mt-6 p-4 rounded-xl bg-obsidian-900/50 border border-white/5 backdrop-blur-md">
+            <h3 className="text-xs font-bold text-slate-300 uppercase tracking-wider mb-2.5 flex items-center gap-2">
+              <span>📍 Direct Delivery Hubs Across Delhi NCR:</span>
+            </h3>
+            <div className="flex flex-wrap gap-2 text-xs">
+              <Link href="/delhi/south-delhi" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop South Delhi</Link>
+              <Link href="/delhi/greater-kailash" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Greater Kailash</Link>
+              <Link href="/delhi/saket" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Saket</Link>
+              <Link href="/delhi/hauz-khas" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Hauz Khas</Link>
+              <Link href="/delhi/vasant-kunj" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Vasant Kunj</Link>
+              <Link href="/delhi/connaught-place" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Connaught Place</Link>
+              <Link href="/delhi/karol-bagh" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Karol Bagh</Link>
+              <Link href="/delhi/dwarka" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Dwarka</Link>
+              <Link href="/delhi/rajouri-garden" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Rajouri Garden</Link>
+              <Link href="/delhi/punjabi-bagh" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Punjabi Bagh</Link>
+              <Link href="/delhi/janakpuri" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Janakpuri</Link>
+              <Link href="/delhi/rohini" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Rohini</Link>
+              <Link href="/delhi/pitampura" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Pitampura</Link>
+              <Link href="/delhi/mayur-vihar" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Mayur Vihar</Link>
+              <Link href="/delhi/laxmi-nagar" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Laxmi Nagar</Link>
+              <Link href="/delhi/aerocity" className="px-2.5 py-1 rounded-lg bg-emerald-500/10 hover:bg-emerald-500/20 border border-emerald-500/20 text-emerald-300 hover:text-white font-medium transition-all">⚡ Vape Shop Aerocity 24/7</Link>
+              <Link href="/delhi/gurgaon" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Gurgaon</Link>
+              <Link href="/delhi/noida" className="px-2.5 py-1 rounded-lg bg-white/5 hover:bg-brand-cyan/20 border border-white/5 hover:border-brand-cyan/40 text-slate-300 hover:text-white transition-all">Vape Shop Noida</Link>
+            </div>
+          </div>
         </div>
       </section>
 
