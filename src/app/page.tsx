@@ -78,26 +78,27 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* HERO VISUAL CARD (SHOWN ON DESKTOP, HIDDEN ON MOBILE TO BRING PRODUCTS RIGHT UP) */}
-            <div className="hidden lg:block lg:col-span-5">
-              <div className="relative rounded-2xl bg-obsidian-900/60 border border-brand-cyan/30 hover:border-brand-cyan/60 p-3 shadow-2xl shadow-brand-cyan/15 backdrop-blur-xl overflow-hidden group transition-all duration-300 hover:shadow-glow-lg hover:-translate-y-1">
-                <div className="absolute top-5 right-5 z-10 px-3 py-1 rounded-full bg-emerald-500/90 text-white font-bold text-xs shadow-md backdrop-blur-md flex items-center gap-1.5">
-                  <span className="w-2 h-2 rounded-full bg-white animate-pulse" />
+            {/* HERO VISUAL BANNER CARD (RESPONSIVE: VISIBLE ON BOTH DESKTOP & MOBILE) */}
+            <div className="block lg:col-span-5 mt-4 lg:mt-0">
+              <div className="relative rounded-2xl bg-obsidian-900/60 border border-brand-cyan/30 hover:border-brand-cyan/60 p-2.5 sm:p-3 shadow-2xl shadow-brand-cyan/15 backdrop-blur-xl overflow-hidden group transition-all duration-300 hover:shadow-glow-lg hover:-translate-y-1 max-w-lg mx-auto lg:max-w-none">
+                <div className="absolute top-4 right-4 sm:top-5 sm:right-5 z-10 px-2.5 py-0.5 sm:px-3 sm:py-1 rounded-full bg-emerald-500/90 text-white font-bold text-[10px] sm:text-xs shadow-md backdrop-blur-md flex items-center gap-1.5">
+                  <span className="w-1.5 h-1.5 sm:w-2 sm:h-2 rounded-full bg-white animate-pulse" />
                   <span>⚡ 45-Min Express in Delhi</span>
                 </div>
                 <img
                   src="/og-banner.jpg"
-                  alt="VapeeShopDelhi.com - Best Vape Shop in Delhi, Official Collection"
+                  alt="Vape Shop Delhi - 100% Authentic Vapes Online Collection"
                   className="w-full rounded-xl object-cover aspect-[16/9] shadow-inner group-hover:scale-105 transition-transform duration-500"
                   width={560}
                   height={315}
+                  loading="eager"
                 />
-                <div className="flex items-center justify-between pt-3 px-1.5 text-xs">
-                  <div className="flex items-center gap-1.5 text-slate-300 text-xs">
+                <div className="flex items-center justify-between pt-2.5 sm:pt-3 px-1 sm:px-1.5 text-xs">
+                  <div className="flex items-center gap-1.5 text-slate-300 text-[11px] sm:text-xs">
                     <span className="w-2 h-2 rounded-full bg-emerald-400" />
-                    <span><strong>Fresh Batch:</strong> Elfbar, SMOK, Raya D2</span>
+                    <span><strong>Fresh Delhi Batch:</strong> Elfbar, SMOK, Raya D2</span>
                   </div>
-                  <span className="font-bold text-brand-cyan text-sm">Starting ₹1,650</span>
+                  <span className="font-bold text-brand-cyan text-xs sm:text-sm">Starting ₹1,650</span>
                 </div>
               </div>
             </div>

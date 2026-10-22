@@ -71,16 +71,16 @@ export default function ProductCatalog({ products }: ProductCatalogProps) {
           </svg>
           <input
             type="text"
-            placeholder="Search Elfbar, SMOK, Raya..."
+            placeholder="Search 20000 puffs, Elfbar, SMOK, flavors in Delhi..."
             value={searchQuery}
             onChange={(e) => setSearchQuery(e.target.value)}
-            aria-label="Search products"
+            aria-label="Search authentic vapes in Delhi"
             className="w-full bg-obsidian-950/80 border border-white/10 focus:border-brand-cyan focus:shadow-glow rounded-full pl-8 sm:pl-9 pr-7 sm:pr-8 py-1 sm:py-1.5 text-xs sm:text-sm text-white placeholder-slate-500 outline-none transition-all"
           />
           {searchQuery && (
             <button
               type="button"
-              className="absolute right-2.5 text-slate-400 hover:text-white text-xs"
+              className="absolute right-2.5 text-slate-400 hover:text-white text-xs cursor-pointer"
               onClick={() => setSearchQuery('')}
               aria-label="Clear search"
             >
@@ -88,6 +88,57 @@ export default function ProductCatalog({ products }: ProductCatalogProps) {
             </button>
           )}
         </div>
+      </div>
+
+      {/* HOT KEYWORD QUICK SEARCH PILLS (FOR SEO & INSTANT MOBILE FILTERING) */}
+      <div className="flex flex-wrap items-center justify-center gap-1.5 mb-3.5 max-w-[860px] mx-auto text-[10px] sm:text-xs">
+        <span className="text-slate-400 font-bold uppercase tracking-wider text-[9px] sm:text-[10px] mr-1 hidden sm:inline">
+          🔥 Hot Delhi Searches:
+        </span>
+        <button
+          type="button"
+          onClick={() => setSearchQuery(searchQuery === '20000' ? '' : '20000')}
+          className={`px-2.5 py-0.5 rounded-full border transition-all cursor-pointer ${
+            searchQuery.includes('20000')
+              ? 'bg-brand-cyan/20 text-brand-cyan border-brand-cyan'
+              : 'bg-white/5 hover:bg-white/10 text-slate-300 border-white/5'
+          }`}
+        >
+          20000 Puffs
+        </button>
+        <button
+          type="button"
+          onClick={() => setSearchQuery(searchQuery === 'Elfbar' ? '' : 'Elfbar')}
+          className={`px-2.5 py-0.5 rounded-full border transition-all cursor-pointer ${
+            searchQuery.includes('Elfbar')
+              ? 'bg-brand-cyan/20 text-brand-cyan border-brand-cyan'
+              : 'bg-white/5 hover:bg-white/10 text-slate-300 border-white/5'
+          }`}
+        >
+          Elfbar Delhi
+        </button>
+        <button
+          type="button"
+          onClick={() => setSearchQuery(searchQuery === 'SMOK' ? '' : 'SMOK')}
+          className={`px-2.5 py-0.5 rounded-full border transition-all cursor-pointer ${
+            searchQuery.includes('SMOK')
+              ? 'bg-brand-cyan/20 text-brand-cyan border-brand-cyan'
+              : 'bg-white/5 hover:bg-white/10 text-slate-300 border-white/5'
+          }`}
+        >
+          SMOK Pod Kits
+        </button>
+        <button
+          type="button"
+          onClick={() => setSearchQuery(searchQuery === 'Raya D2' ? '' : 'Raya D2')}
+          className={`px-2.5 py-0.5 rounded-full border transition-all cursor-pointer ${
+            searchQuery.includes('Raya D2')
+              ? 'bg-brand-cyan/20 text-brand-cyan border-brand-cyan'
+              : 'bg-white/5 hover:bg-white/10 text-slate-300 border-white/5'
+          }`}
+        >
+          Raya D2 (₹1,800)
+        </button>
       </div>
 
       {/* COMPACT PRODUCTS GRID (MAX-W-[860PX] FOR BALANCED CARD SIZES ON DESKTOP & 2x2 ON MOBILE) */}

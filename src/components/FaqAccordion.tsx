@@ -9,6 +9,14 @@ interface FaqItem {
 
 const FAQ_DATA: FaqItem[] = [
   {
+    question: 'What is the vape price in Delhi for 20000 puffs disposable vapes?',
+    answer: 'Vape price in Delhi starts from ₹1,650 for Elfbar Raya D1 (13,000 puffs) and ₹1,800 for Elfbar Raya D2 (20,000 puffs dual mode with smart screen). Pod kits like SMOK Nord 1100mAh are priced at ₹3,500. We offer direct wholesale-to-consumer pricing with 100% manufacturer scratch verification and Cash on Delivery (COD) across all Delhi areas.'
+  },
+  {
+    question: 'Can I get 1-hour instant vape delivery anywhere in Delhi NCR?',
+    answer: 'Yes! We offer 45 to 60-minute express doorstep delivery across Delhi NCR. South Delhi (GK, Saket, Hauz Khas) receives orders in 45 minutes. Central Delhi (Connaught Place), West Delhi (Dwarka, Rajouri Garden), and East/North Delhi (Rohini, Pitampura) are fulfilled within 60 minutes. Late-night delivery is also available across Aerocity and Cyber City hubs.'
+  },
+  {
     question: 'Which is the best vape shop in Delhi for authentic products?',
     answer: 'VapeeShopDelhi.com is Delhi\'s #1 rated vape shop for 100% authentic, factory-sealed devices. We stock top brands like Elfbar Raya D2 20000, SMOK Nord 1100mAh, and Elfbar Raya D1 Black Gold with manufacturer holographic scratch verification codes. All products are sourced directly from verified international distributors.'
   },

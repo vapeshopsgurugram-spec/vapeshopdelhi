@@ -56,7 +56,7 @@ export default function SeoGuide() {
           <div
             className={`transition-all duration-500 ease-in-out relative ${
               isExpanded
-                ? 'max-h-[1200px] opacity-100 overflow-visible'
+                ? 'max-h-[1800px] opacity-100 overflow-visible'
                 : 'max-h-0 opacity-0 overflow-hidden'
             }`}
           >
@@ -66,10 +66,10 @@ export default function SeoGuide() {
               </h3>
               <ul className="list-disc list-inside space-y-1.5 text-slate-400 text-xs sm:text-sm pl-1">
                 <li>
-                  <strong className="text-white">Disposable Vapes (Elfbar Raya D2, D1 Gold):</strong> Perfect for beginners and busy professionals. Zero maintenance, pre-charged, up to 20,000 puffs.
+                  <strong className="text-white">Disposable Vapes (Elfbar Raya D2 20000, D1 Gold 13000):</strong> Perfect for beginners and busy professionals across Delhi. Zero maintenance, pre-charged, up to 20,000 puffs with dual-mode airflow.
                 </li>
                 <li>
-                  <strong className="text-white">Refillable Pod Kits (SMOK Nord 1100mAh):</strong> Best value for regular Delhi vapers. Refill with imported nic salt juices.
+                  <strong className="text-white">Refillable Pod Kits (SMOK Nord 1100mAh):</strong> Best value for regular Delhi vapers. Refill with premium imported nic salt juices.
                 </li>
               </ul>
 
@@ -77,14 +77,21 @@ export default function SeoGuide() {
                 45-Min Same Day Vape Delivery Across All Delhi Areas
               </h3>
               <p>
-                No more waiting 3–5 days! <strong className="text-white">VapeeShopDelhi.com</strong> delivers vapes same-day, directly to your door anywhere in Delhi NCR. South Delhi in 45 min, Central Delhi in 60 min, West and East Delhi in 60–90 min, and Gurgaon &amp; Noida within 60 minutes.
+                Searching for <strong className="text-white">vape delivery in Delhi</strong>? No more waiting 3–5 days! <strong className="text-white">VapeeShopDelhi.com</strong> delivers vapes same-day, directly to your doorstep anywhere in Delhi NCR. South Delhi (Greater Kailash, Saket, Hauz Khas) in 45 min, Central Delhi (Connaught Place, Karol Bagh) in 60 min, West Delhi (Dwarka, Rajouri Garden, Punjabi Bagh) in 60–90 min, and East/North Delhi (Rohini, Pitampura, Mayur Vihar) within 60–90 minutes.
+              </p>
+
+              <h3 className="text-sm sm:text-base font-bold text-white pt-1">
+                Cash on Delivery (COD) Vape Shop in Delhi
+              </h3>
+              <p>
+                We understand that trust is everything when buying online. That&apos;s why <strong className="text-white">Vape Shop Delhi</strong> offers complete <strong className="text-white">Cash on Delivery (COD)</strong> across all major Delhi pin codes. Inspect your parcel, verify the manufacturer scratch code, and pay with cash or instant UPI (Google Pay, PhonePe, Paytm) upon arrival.
               </p>
 
               <h3 className="text-sm sm:text-base font-bold text-white pt-1">
                 Late Night &amp; 24/7 Vape Delivery Near Me in Delhi
               </h3>
               <p>
-                Looking for a <strong className="text-white">vape shop open now near me</strong> in Delhi? We operate 7 days a week with late-night delivery options across major hubs including Aerocity Worldmark, Connaught Place, Greater Kailash, Cyber City Gurgaon, and Noida. Enjoy 100% authentic, tamper-proof packaging delivered with Cash on Delivery (COD) and instant UPI.
+                Looking for a <strong className="text-white">vape shop open now near me</strong> in Delhi? We operate 7 days a week with rapid late-night delivery options across major hotspots including Aerocity Worldmark hotels, Connaught Place, Greater Kailash, Cyber City Gurgaon, and Noida Sector 18. Tamper-proof, discreet plain-box packaging guaranteed.
               </p>
             </div>
           </div>
