@@ -16,7 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'south-delhi', 'connaught-place', 'dwarka', 'rohini',
     'hauz-khas', 'greater-kailash', 'karol-bagh', 'rajouri-garden',
     'mayur-vihar', 'laxmi-nagar', 'vasant-kunj', 'saket',
-    'gurgaon', 'noida', 'punjabi-bagh', 'pitampura', 'janakpuri', 'aerocity'
+    'lajpat-nagar', 'paschim-vihar', 'punjabi-bagh', 'pitampura', 'janakpuri', 'aerocity'
   ].map((area) => ({
     url: `${baseUrl}/delhi/${area}`,
     lastModified: new Date(),

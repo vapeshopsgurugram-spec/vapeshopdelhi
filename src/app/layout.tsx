@@ -7,11 +7,11 @@ import MobileStickyBar from '@/components/MobileStickyBar';
 export const metadata: Metadata = {
   metadataBase: new URL('https://vapeeshopdelhi.com'),
   title: {
-    default: 'Vape Shop Delhi | Buy Vapes Online | 45-Min Express Delivery in Delhi',
+    default: 'Vape Shop Delhi – #1 Best Vape Shop in Delhi (45-Min COD)',
     template: '%s | Vape Shop Delhi'
   },
   description:
-    'Best Vape Shop in Delhi. Call/WhatsApp 8816964412 for 45-min doorstep delivery across Delhi NCR. Buy authentic disposable vapes, Elfbar, SMOK & nic salts online. Cash on delivery (COD) available!',
+    'Vape Shop Delhi (VapeeShopDelhi.com) – Buy authentic disposable vapes, Elfbar Raya D2 20000, SMOK pod kits & nic salts in Delhi. 45-min doorstep delivery with Cash on Delivery (COD) across all Delhi areas.',
   keywords: [
     'vape shop delhi',
     'vape shop in delhi',
@@ -44,10 +44,10 @@ export const metadata: Metadata = {
     'blueberry ice vape delhi',
     'watermelon ice vape delhi',
     '50mg nic salt vape delhi',
-    'vape delivery gurgaon',
-    'vape shop gurgaon',
-    'vape delivery noida',
-    'vape shop noida',
+    'vape shop lajpat nagar',
+    'vape shop paschim vihar',
+    'vape delivery south delhi',
+    'vape delivery west delhi',
     'vape delivery aerocity',
     'vape shop south delhi',
     'vape shop connaught place',
@@ -97,9 +97,9 @@ export const metadata: Metadata = {
     locale: 'en_IN',
     url: 'https://vapeeshopdelhi.com',
     siteName: 'Vape Shop Delhi',
-    title: 'Vape Shop Delhi | Buy Vapes Online | 45-Min Express Delivery in Delhi',
+    title: 'Vape Shop Delhi – #1 Best Vape Shop in Delhi (45-Min COD)',
     description:
-      'Buy 100% authentic disposable vapes, Elfbar, SMOK pod kits & nic salts in Delhi. 45-min express delivery across South Delhi, Connaught Place, Dwarka & all of Delhi. COD available!',
+      'Vape Shop Delhi (VapeeShopDelhi.com) – Buy authentic disposable vapes, Elfbar Raya D2 20000, SMOK pod kits & nic salts in Delhi. 45-min express doorstep delivery with COD across all Delhi areas.',
     images: [
       {
         url: 'https://vapeeshopdelhi.com/logo.png',
@@ -123,9 +123,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vape Shop Delhi | Buy Vapes Online | 45-Min Express Delivery in Delhi',
+    title: 'Vape Shop Delhi – #1 Best Vape Shop in Delhi (45-Min COD)',
     description:
-      'Buy 100% authentic disposable vapes, Elfbar, SMOK pod kits & nic salts in Delhi. 45-min express delivery. COD available. Order on WhatsApp!',
+      'Buy 100% authentic disposable vapes, Elfbar Raya D2 20000, SMOK pod kits & nic salts in Delhi. 45-min express delivery with COD. Order on WhatsApp!',
     images: ['https://vapeeshopdelhi.com/og-banner.jpg']
   },
   other: {
@@ -142,8 +142,8 @@ const websiteSchema = {
   '@id': 'https://vapeeshopdelhi.com/#website',
   url: 'https://vapeeshopdelhi.com',
   name: 'VapeeShopDelhi',
-  alternateName: ['Vape Shop Delhi', 'Vapee Shop Delhi', 'VapeeShopDelhi.com', 'Vape Store Gurgaon'],
-  description: 'Delhi NCR #1 Store for Authentic Vapes, Disposable Pods & E-Liquids with Same Day Delivery',
+  alternateName: ['Vape Shop Delhi', 'Vapee Shop Delhi', 'VapeeShopDelhi.com', 'Vape Store Delhi'],
+  description: 'Delhi #1 Store for Authentic Vapes, Disposable Pods & E-Liquids with Same Day Delivery',
   potentialAction: {
     '@type': 'SearchAction',
     target: 'https://vapeeshopdelhi.com/?q={search_term_string}',
@@ -153,9 +153,9 @@ const websiteSchema = {
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': 'Store',
-  name: 'VapeeShopDelhi – Best Vape Shop in Delhi',
-  alternateName: ['Vape Shop Delhi', 'Best Vape Store Delhi', 'Vapee Shop Delhi'],
+  '@type': ['Store', 'LocalBusiness'],
+  name: 'Vape Shop Delhi',
+  alternateName: ['Vape Shop in Delhi', 'Best Vape Shop in Delhi', 'Vape Store Delhi', 'VapeeShopDelhi', 'VapeeShopDelhi.com', 'Buy Vape Delhi'],
   description: 'Delhi #1 Vape Shop — 100% Authentic Disposable Vapes, Elfbar, SMOK Pod Kits & Nic Salts with 45-Min Express Delivery across all of Delhi. COD Available.',
   image: [
     'https://vapeeshopdelhi.com/logo.png',
@@ -245,8 +245,8 @@ const localBusinessSchema = {
     { '@type': 'AdministrativeArea', name: 'Saket' },
     { '@type': 'AdministrativeArea', name: 'Rohini' },
     { '@type': 'AdministrativeArea', name: 'Vasant Kunj' },
-    { '@type': 'AdministrativeArea', name: 'Gurgaon' },
-    { '@type': 'AdministrativeArea', name: 'Noida' },
+    { '@type': 'AdministrativeArea', name: 'Lajpat Nagar' },
+    { '@type': 'AdministrativeArea', name: 'Paschim Vihar' },
     { '@type': 'AdministrativeArea', name: 'Punjabi Bagh' },
     { '@type': 'AdministrativeArea', name: 'Pitampura' },
     { '@type': 'AdministrativeArea', name: 'Janakpuri' },
@@ -364,10 +364,10 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'Is late night vape delivery available in Delhi NCR?',
+      name: 'Is late night vape delivery available in Delhi & Aerocity?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes! VapeeShopDelhi.com provides late night express vape delivery across Delhi NCR, Aerocity, Gurgaon, and Noida. Orders confirmed via WhatsApp are dispatched rapidly with express delivery partners.'
+        text: 'Yes! VapeeShopDelhi.com provides late night express vape delivery across Delhi, Aerocity, South Delhi, and Central Delhi. Orders confirmed via WhatsApp are dispatched rapidly with express delivery partners.'
       }
     },
     {
@@ -380,10 +380,10 @@ const faqSchema = {
     },
     {
       '@type': 'Question',
-      name: 'Do you deliver vapes to Gurgaon (Gurugram) and Noida?',
+      name: 'Which areas in Delhi do you provide 45-minute express delivery to?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Yes! We offer 60-minute express vape delivery across Gurgaon (DLF Phase 1-5, Cyber City, Golf Course Road, Sohna Road) and Noida (Sector 18, 62, 137). Cash on Delivery (COD) is available across Delhi NCR.'
+        text: 'We offer 45 to 60-minute express doorstep delivery across all Delhi zones including South Delhi (GK 1 & 2, Saket, Hauz Khas, Lajpat Nagar), Central Delhi (CP, Karol Bagh), West Delhi (Dwarka, Punjabi Bagh, Paschim Vihar), North Delhi (Rohini, Pitampura), East Delhi (Mayur Vihar, Laxmi Nagar), and Aerocity. Cash on Delivery (COD) is available everywhere in Delhi.'
       }
     }
   ]

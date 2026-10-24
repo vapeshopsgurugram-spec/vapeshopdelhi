@@ -1,9 +1,10 @@
 'use client';
 
 import { useState } from 'react';
+import Link from 'next/link';
 
 export default function SeoGuide() {
-  const [isExpanded, setIsExpanded] = useState(false);
+  const [isExpanded, setIsExpanded] = useState(true);
 
   return (
     <section id="seo-guide" className="py-8 sm:py-12 bg-obsidian-900/30 border-y border-white/5">
@@ -47,7 +48,7 @@ export default function SeoGuide() {
               <span className="text-xl shrink-0">⚡</span>
               <div>
                 <h3 className="font-bold text-xs text-white">45-Min Delhi COD</h3>
-                <p className="text-[10px] text-slate-400">Late night &amp; NCR delivery</p>
+                <p className="text-[10px] text-slate-400">Late night &amp; Delhi delivery</p>
               </div>
             </div>
           </div>
@@ -56,7 +57,7 @@ export default function SeoGuide() {
           <div
             className={`transition-all duration-500 ease-in-out relative ${
               isExpanded
-                ? 'max-h-[1800px] opacity-100 overflow-visible'
+                ? 'max-h-[2200px] opacity-100 overflow-visible'
                 : 'max-h-0 opacity-0 overflow-hidden'
             }`}
           >
@@ -77,7 +78,7 @@ export default function SeoGuide() {
                 45-Min Same Day Vape Delivery Across All Delhi Areas
               </h3>
               <p>
-                Searching for <strong className="text-white">vape delivery in Delhi</strong>? No more waiting 3–5 days! <strong className="text-white">VapeeShopDelhi.com</strong> delivers vapes same-day, directly to your doorstep anywhere in Delhi NCR. South Delhi (Greater Kailash, Saket, Hauz Khas) in 45 min, Central Delhi (Connaught Place, Karol Bagh) in 60 min, West Delhi (Dwarka, Rajouri Garden, Punjabi Bagh) in 60–90 min, and East/North Delhi (Rohini, Pitampura, Mayur Vihar) within 60–90 minutes.
+                Searching for <strong className="text-white">vape delivery in Delhi</strong>? No more waiting 3–5 days! <strong className="text-white">VapeeShopDelhi.com</strong> delivers vapes same-day, directly to your doorstep anywhere in Delhi. Express dispatch to <Link href="/delhi/south-delhi" className="text-brand-cyan hover:underline font-medium">South Delhi</Link> (<Link href="/delhi/greater-kailash" className="hover:text-white underline decoration-brand-cyan/40">Greater Kailash</Link>, <Link href="/delhi/saket" className="hover:text-white underline decoration-brand-cyan/40">Saket</Link>, <Link href="/delhi/hauz-khas" className="hover:text-white underline decoration-brand-cyan/40">Hauz Khas</Link>, <Link href="/delhi/lajpat-nagar" className="hover:text-white underline decoration-brand-cyan/40">Lajpat Nagar</Link>) in 45 min, <Link href="/delhi/connaught-place" className="text-brand-cyan hover:underline font-medium">Central Delhi</Link> (<Link href="/delhi/connaught-place" className="hover:text-white underline decoration-brand-cyan/40">Connaught Place</Link>, <Link href="/delhi/karol-bagh" className="hover:text-white underline decoration-brand-cyan/40">Karol Bagh</Link>) in 60 min, <Link href="/delhi/dwarka" className="text-brand-cyan hover:underline font-medium">West Delhi</Link> (<Link href="/delhi/dwarka" className="hover:text-white underline decoration-brand-cyan/40">Dwarka</Link>, <Link href="/delhi/rajouri-garden" className="hover:text-white underline decoration-brand-cyan/40">Rajouri Garden</Link>, <Link href="/delhi/punjabi-bagh" className="hover:text-white underline decoration-brand-cyan/40">Punjabi Bagh</Link>, <Link href="/delhi/paschim-vihar" className="hover:text-white underline decoration-brand-cyan/40">Paschim Vihar</Link>) in 60–90 min, and <Link href="/delhi/rohini" className="text-brand-cyan hover:underline font-medium">North/East Delhi</Link> (<Link href="/delhi/rohini" className="hover:text-white underline decoration-brand-cyan/40">Rohini</Link>, <Link href="/delhi/pitampura" className="hover:text-white underline decoration-brand-cyan/40">Pitampura</Link>, <Link href="/delhi/mayur-vihar" className="hover:text-white underline decoration-brand-cyan/40">Mayur Vihar</Link>, <Link href="/delhi/laxmi-nagar" className="hover:text-white underline decoration-brand-cyan/40">Laxmi Nagar</Link>) within 60–90 minutes.
               </p>
 
               <h3 className="text-sm sm:text-base font-bold text-white pt-1">
@@ -91,7 +92,7 @@ export default function SeoGuide() {
                 Late Night &amp; 24/7 Vape Delivery Near Me in Delhi
               </h3>
               <p>
-                Looking for a <strong className="text-white">vape shop open now near me</strong> in Delhi? We operate 7 days a week with rapid late-night delivery options across major hotspots including Aerocity Worldmark hotels, Connaught Place, Greater Kailash, Cyber City Gurgaon, and Noida Sector 18. Tamper-proof, discreet plain-box packaging guaranteed.
+                Looking for a <strong className="text-white">vape shop open now near me</strong> in Delhi? We operate 7 days a week with rapid late-night delivery options across major hotspots including <Link href="/delhi/aerocity" className="text-brand-cyan hover:underline font-medium">Aerocity Worldmark hotels</Link>, Connaught Place, Greater Kailash, Lajpat Nagar, and Paschim Vihar. Tamper-proof, discreet plain-box packaging guaranteed.
               </p>
             </div>
           </div>

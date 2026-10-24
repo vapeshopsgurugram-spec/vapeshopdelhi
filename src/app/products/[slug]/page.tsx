@@ -152,7 +152,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
   };
 
   const waMessage = encodeURIComponent(
-    `Hello Vape Shop Delhi! I want to order *${product.name}* (Price: ₹${product.price}). Please share available flavors and express delivery time for my location in Delhi NCR.`
+    `Hello Vape Shop Delhi! I want to order *${product.name}* (Price: ₹${product.price}). Please share available flavors and express delivery time for my location in Delhi.`
   );
 
   return (
@@ -234,7 +234,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
               <div className="delhi-express-banner">
                 <span className="express-icon">🚀</span>
                 <div>
-                  <h4>Same Day Express Dispatch in Delhi NCR</h4>
+                  <h4>Same Day Express Dispatch Across Delhi</h4>
                   <p>Order now for delivery within {product.delhiDeliveryTime}. Cash on Delivery (COD) & UPI available.</p>
                 </div>
               </div>
@@ -322,7 +322,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
                   📍 Fast Local Courier Zones for {product.name}:
                 </h4>
                 <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>
-                  High-speed dispatches ready for: {product.popularLocalities.join(', ')} and all surrounding Delhi NCR sectors.
+                  High-speed dispatches ready for: {product.popularLocalities.join(', ')} and all surrounding Delhi localities.
                 </p>
               </div>
             </div>
