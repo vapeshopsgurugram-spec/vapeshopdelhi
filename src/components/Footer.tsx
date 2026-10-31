@@ -175,10 +175,14 @@ export default function Footer() {
 
         {/* BOTTOM COPYRIGHT & QUICK NAV */}
         <div className="pt-6 mt-8 border-t border-white/5 flex flex-col sm:flex-row items-center justify-between gap-3 text-[11px] text-slate-400">
-          <p>&copy; 2026 VapeeShopDelhi.com — Delhi&apos;s #1 Authentic Vape Shop. All Rights Reserved.</p>
-          <div className="flex items-center gap-4">
-            <Link href="/#seo-guide" className="hover:text-brand-cyan">Delhi Vape Guide</Link>
-            <Link href="/#faq" className="hover:text-brand-cyan">Delhi FAQ</Link>
+          <p>&copy; 2026 Vape Shop Delhi (VapeeShopDelhi.com) — Delhi&apos;s #1 Authentic Vape Store. All Rights Reserved.</p>
+          <div className="flex flex-wrap items-center gap-3 sm:gap-4">
+            <Link href="/contact" className="hover:text-brand-cyan transition-colors">Contact Us</Link>
+            <Link href="/return-policy" className="hover:text-brand-cyan transition-colors">Return Policy</Link>
+            <Link href="/terms" className="hover:text-brand-cyan transition-colors">18+ Terms</Link>
+            <Link href="/privacy-policy" className="hover:text-brand-cyan transition-colors">Privacy Policy</Link>
+            <Link href="/#seo-guide" className="hover:text-brand-cyan transition-colors">Delhi Vape Guide</Link>
+            <Link href="/#faq" className="hover:text-brand-cyan transition-colors">Delhi FAQ</Link>
             <a href="#navbar" className="hover:text-brand-cyan font-semibold">Back to Top ↑</a>
           </div>
         </div>

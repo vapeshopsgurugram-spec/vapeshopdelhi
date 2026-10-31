@@ -24,6 +24,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.85,
   }));
 
+  const policyUrls: MetadataRoute.Sitemap = [
+    'contact',
+    'return-policy',
+    'terms',
+    'privacy-policy',
+  ].map((page) => ({
+    url: `${baseUrl}/${page}`,
+    lastModified: new Date(),
+    changeFrequency: 'monthly' as const,
+    priority: 0.6,
+  }));
+
   return [
     {
       url: baseUrl,
@@ -33,5 +45,6 @@ export default function sitemap(): MetadataRoute.Sitemap {
     },
     ...productUrls,
     ...delhiAreaUrls,
+    ...policyUrls,
   ];
 }

@@ -216,11 +216,14 @@ export default async function DelhiAreaPage({ params }: PageProps) {
 
   const areaSchema = {
     '@context': 'https://schema.org',
-    '@type': 'Store',
-    name: `VapeeShopDelhi - Vape Shop ${areaInfo.name}`,
+    '@type': ['Store', 'LocalBusiness'],
+    name: `Vape Shop Delhi - ${areaInfo.name}`,
     description: areaInfo.description,
     url: `https://vapeeshopdelhi.com/delhi/${area}`,
     telephone: '+918816964412',
+    priceRange: '₹₹',
+    currenciesAccepted: 'INR',
+    paymentAccepted: 'Cash on Delivery, UPI, Google Pay, PhonePe, Paytm',
     areaServed: areaInfo.localities.map(loc => ({ '@type': 'Place', name: loc })),
     address: {
       '@type': 'PostalAddress',
@@ -378,9 +381,9 @@ export default async function DelhiAreaPage({ params }: PageProps) {
               </p>
               <h3>Popular Vapes Available for Delivery in {areaInfo.name}</h3>
               <ul>
-                <li><Link href="/products/elfbar-raya-d2-20000" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}><strong>Elfbar Raya D2 20000 (₹1,800)</strong></Link> — 20,000 puffs, dual mode, smart screen. #1 bestseller in {areaInfo.name}.</li>
-                <li><Link href="/products/smok-nord-pod-kit" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}><strong>SMOK Nord 1100mAh (₹3,500)</strong></Link> — Refillable pod kit, best long-term value for {areaInfo.name} vapers.</li>
-                <li><Link href="/products/elfbar-raya-d1-black-gold" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}><strong>Elfbar Raya D1 Black Gold (₹1,650)</strong></Link> — 13,000 puffs, luxury Black Gold edition, available in {areaInfo.name}.</li>
+                <li><Link href="/products/elfbar-raya-d2-20000-disposable-pod-device" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}><strong>Elfbar Raya D2 20000 (₹1,800)</strong></Link> — 20,000 puffs, dual mode, smart screen. #1 bestseller in {areaInfo.name}.</li>
+                <li><Link href="/products/smok-nord-pod-kit-1100mah" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}><strong>SMOK Nord 1100mAh (₹3,500)</strong></Link> — Refillable pod kit, best long-term value for {areaInfo.name} vapers.</li>
+                <li><Link href="/products/elfbar-raya-d1-disposable-pod-device-black-gold" style={{ color: 'var(--accent-cyan)', textDecoration: 'underline' }}><strong>Elfbar Raya D1 Black Gold (₹1,650)</strong></Link> — 13,000 puffs, luxury Black Gold edition, available in {areaInfo.name}.</li>
               </ul>
             </article>
           </div>

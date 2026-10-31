@@ -63,7 +63,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
     '@context': 'https://schema.org',
     '@type': 'Product',
     name: product.name,
-    image: product.image,
+    image: product.image.startsWith('http') ? product.image : `https://vapeeshopdelhi.com${product.image}`,
     description: product.shortDesc,
     brand: {
       '@type': 'Brand',
@@ -80,7 +80,7 @@ export default async function ProductDetailPage({ params }: PageProps) {
       availability: product.inStock ? 'https://schema.org/InStock' : 'https://schema.org/OutOfStock',
       seller: {
         '@type': 'Organization',
-        name: 'Vapee Shop Delhi'
+        name: 'Vape Shop Delhi'
       },
       hasMerchantReturnPolicy: {
         '@type': 'MerchantReturnPolicy',
@@ -88,7 +88,8 @@ export default async function ProductDetailPage({ params }: PageProps) {
         returnPolicyCategory: 'https://schema.org/MerchantReturnFiniteReturnWindow',
         merchantReturnDays: 7,
         returnMethod: 'https://schema.org/ReturnByMail',
-        returnFees: 'https://schema.org/FreeReturn'
+        returnFees: 'https://schema.org/FreeReturn',
+        merchantReturnLink: 'https://vapeeshopdelhi.com/return-policy'
       },
       shippingDetails: {
         '@type': 'OfferShippingDetails',

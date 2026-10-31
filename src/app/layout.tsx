@@ -7,11 +7,11 @@ import MobileStickyBar from '@/components/MobileStickyBar';
 export const metadata: Metadata = {
   metadataBase: new URL('https://vapeeshopdelhi.com'),
   title: {
-    default: 'Vape Shop Delhi | Buy Vapes Online | 45-Min Express Delivery in Delhi',
+    default: 'Vape Shop Delhi | Buy Vapes Online | 45-Min Express Delivery',
     template: '%s | Vape Shop Delhi'
   },
   description:
-    'Best Vape Shop in Delhi. Call/WhatsApp 8816964412 for 45-min doorstep delivery across Delhi NCR. Buy authentic disposable vapes, Elfbar, SMOK & nic salts online. Cash on delivery (COD) available!',
+    '#1 Vape Shop in Delhi. Buy authentic disposable vapes, Elfbar 20K puffs & SMOK online. 45-min express delivery in Delhi NCR with COD. WhatsApp: +91 8816964412.',
   keywords: [
     'vape shop delhi',
     'vape shop in delhi',
@@ -91,13 +91,13 @@ export const metadata: Metadata = {
     ],
     shortcut: '/favicon.ico'
   },
-  manifest: '/manifest.webmanifest',
+  manifest: '/site.webmanifest',
   openGraph: {
     type: 'website',
     locale: 'en_IN',
     url: 'https://vapeeshopdelhi.com',
     siteName: 'Vape Shop Delhi',
-    title: 'Vape Shop Delhi | Buy Vapes Online | 45-Min Express Delivery in Delhi',
+    title: 'Vape Shop Delhi | Buy Vapes Online | 45-Min Express Delivery',
     description:
       'Buy 100% authentic disposable vapes, Elfbar, SMOK pod kits & nic salts in Delhi. 45-min express delivery across South Delhi, Connaught Place, Dwarka & all of Delhi. COD available!',
     images: [
@@ -123,7 +123,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Vape Shop Delhi | Buy Vapes Online | 45-Min Express Delivery in Delhi',
+    title: 'Vape Shop Delhi | Buy Vapes Online | 45-Min Express Delivery',
     description:
       'Buy 100% authentic disposable vapes, Elfbar, SMOK pod kits & nic salts in Delhi. 45-min express delivery. COD available. Order on WhatsApp!',
     images: ['https://vapeeshopdelhi.com/og-banner.jpg']
@@ -141,8 +141,8 @@ const websiteSchema = {
   '@type': 'WebSite',
   '@id': 'https://vapeeshopdelhi.com/#website',
   url: 'https://vapeeshopdelhi.com',
-  name: 'VapeeShopDelhi',
-  alternateName: ['Vape Shop Delhi', 'Vapee Shop Delhi', 'VapeeShopDelhi.com', 'Vape Store Gurgaon'],
+  name: 'Vape Shop Delhi',
+  alternateName: ['Vape Shop in Delhi', 'Vape Store Delhi', 'VapeeShopDelhi', 'Vapee Shop Delhi', 'VapeeShopDelhi.com', 'Vape Store Gurgaon'],
   description: 'Delhi NCR #1 Store for Authentic Vapes, Disposable Pods & E-Liquids with Same Day Delivery',
   potentialAction: {
     '@type': 'SearchAction',
@@ -153,9 +153,9 @@ const websiteSchema = {
 
 const localBusinessSchema = {
   '@context': 'https://schema.org',
-  '@type': 'Store',
-  name: 'VapeeShopDelhi – Best Vape Shop in Delhi',
-  alternateName: ['Vape Shop Delhi', 'Best Vape Store Delhi', 'Vapee Shop Delhi'],
+  '@type': ['Store', 'LocalBusiness'],
+  name: 'Vape Shop Delhi',
+  alternateName: ['Vape Shop in Delhi', 'Best Vape Store Delhi', 'VapeeShopDelhi', 'Vapee Shop Delhi', 'Vape Shop Near Me Delhi'],
   description: 'Delhi #1 Vape Shop — 100% Authentic Disposable Vapes, Elfbar, SMOK Pod Kits & Nic Salts with 45-Min Express Delivery across all of Delhi. COD Available.',
   image: [
     'https://vapeeshopdelhi.com/logo.png',
@@ -223,6 +223,10 @@ const localBusinessSchema = {
   ],
   knowsAbout: [
     'Vape Shop Delhi',
+    'Vape Shop in Delhi',
+    'Vape Store Delhi',
+    'Vape Shop Near Me Delhi',
+    'Buy Vape Online Delhi',
     'Disposable Vapes Delhi',
     'Elfbar Raya D2 20000',
     'SMOK Nord Pod Kit',
@@ -251,141 +255,6 @@ const localBusinessSchema = {
     { '@type': 'AdministrativeArea', name: 'Pitampura' },
     { '@type': 'AdministrativeArea', name: 'Janakpuri' },
     { '@type': 'AdministrativeArea', name: 'Aerocity' }
-  ]
-};
-
-const faqSchema = {
-  '@context': 'https://schema.org',
-  '@type': 'FAQPage',
-  mainEntity: [
-    {
-      '@type': 'Question',
-      name: 'What is the vape price in Delhi for 20000 puffs disposable vapes?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Vape price in Delhi starts from ₹1,650 for Elfbar Raya D1 (13,000 puffs) and ₹1,800 for Elfbar Raya D2 (20,000 puffs dual mode with smart screen). All devices come with manufacturer scratch code verification and 45-minute doorstep delivery with Cash on Delivery (COD) in Delhi.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Which is the best vape shop in Delhi for authentic products?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'VapeeShopDelhi.com is Delhi\'s #1 rated vape shop for 100% authentic, factory-sealed devices. We stock Elfbar Raya D2 20000, SMOK Nord 1100mAh, Elfbar Raya D1 Black Gold with manufacturer holographic scratch verification codes.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'How fast is vape delivery in Delhi?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'We deliver vapes across all Delhi zones in 45-90 minutes. South Delhi (Greater Kailash, Hauz Khas, Saket) in 45 min. Central Delhi (Connaught Place, Karol Bagh) in 60 min. West Delhi (Dwarka, Rajouri Garden) and East Delhi (Mayur Vihar) in 60-90 min. North Delhi (Rohini, Pitampura) in 90 min.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Do you offer Cash on Delivery (COD) for vapes in Delhi?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes! VapeeShopDelhi.com offers Cash on Delivery (COD) across most Delhi pin codes. You can also pay via UPI (Google Pay, PhonePe, Paytm, BHIM). No advance payment required for most Delhi delivery areas.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'How do I verify if my vape device is 100% genuine?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Every product from VapeeShopDelhi.com comes with an authentic holographic manufacturer security seal and silver scratch code. Verify on the brand\'s official portal (Elfbar or SMOK website) to confirm authenticity.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'What vape products are available for delivery in Delhi?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'We stock 100+ products at our Delhi warehouse: Elfbar Raya D2 20000, SMOK Nord 1100mAh, Elfbar Raya D1 Black Gold, Uwell Caliburn, Vaporesso XROS, imported nic salt e-liquids, coils, and pod cartridges. All available for same-day delivery in Delhi.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Do you deliver vapes to South Delhi areas like Greater Kailash and Hauz Khas?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes! We deliver to all South Delhi localities: Greater Kailash 1 & 2, Hauz Khas, Green Park, Saket, Malviya Nagar, Defence Colony, South Extension, Vasant Kunj, Vasant Vihar, and Lajpat Nagar. Delivery in South Delhi is typically 45 minutes.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Can I order vapes for delivery in West Delhi areas like Dwarka and Rajouri Garden?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes! We cover all West Delhi areas: Dwarka (all sectors), Rajouri Garden, Janakpuri, Punjabi Bagh, Paschim Vihar, Tilak Nagar, Vikaspuri, and Uttam Nagar. Delivery in West Delhi takes 60-90 minutes.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Do you deliver to Connaught Place, Karol Bagh, and Central Delhi?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes, we deliver to all Central Delhi: Connaught Place (CP), Karol Bagh, Patel Nagar, Civil Lines, Model Town, Kamla Nagar, Chandni Chowk, and DU North Campus. Delivery in Central Delhi is typically 60 minutes.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'What payment methods are accepted for vape orders in Delhi?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'We support UPI (Google Pay, PhonePe, Paytm, BHIM), Net Banking, and Cash on Delivery (COD) across most Delhi pin codes. No advance payment required for COD orders in Delhi.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'How do I place an order for vape delivery in Delhi?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Step 1: Choose your product and flavor above. Step 2: Click Order on WhatsApp and share your Delhi delivery address. Step 3: Our Delhi delivery partner dispatches within 30 minutes. Pay via UPI or COD on delivery. Available 10 AM to 11 PM, 7 days a week.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Do you provide same-day vape delivery in North Delhi areas like Rohini and Pitampura?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes, we deliver to North Delhi: Rohini (all sectors), Pitampura, Shalimar Bagh, Ashok Vihar, Netaji Subhash Place (NSP), and Narela. Delivery to North Delhi takes approximately 75-90 minutes.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Are disposable vapes or refillable pod kits better for buyers in Delhi?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Disposable vapes (Elfbar Raya D2 20000 at Rs 1800) are best for beginners wanting zero maintenance. Refillable pod kits (SMOK Nord at Rs 3500) offer better long-term value for regular Delhi vapers. WhatsApp our Delhi team for personalized recommendations.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Is late night vape delivery available in Delhi NCR?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes! VapeeShopDelhi.com provides late night express vape delivery across Delhi NCR, Aerocity, Gurgaon, and Noida. Orders confirmed via WhatsApp are dispatched rapidly with express delivery partners.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Where can I find an authentic vape shop open now near me in Delhi?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'VapeeShopDelhi.com operates 7 days a week with doorstep delivery across all Delhi localities. You do not need to search for physical shops that might sell counterfeit goods—order directly on WhatsApp for 100% genuine vapes with scratch code verification.'
-      }
-    },
-    {
-      '@type': 'Question',
-      name: 'Do you deliver vapes to Gurgaon (Gurugram) and Noida?',
-      acceptedAnswer: {
-        '@type': 'Answer',
-        text: 'Yes! We offer 60-minute express vape delivery across Gurgaon (DLF Phase 1-5, Cyber City, Golf Course Road, Sohna Road) and Noida (Sector 18, 62, 137). Cash on Delivery (COD) is available across Delhi NCR.'
-      }
-    }
   ]
 };
 
@@ -418,11 +287,6 @@ export default function RootLayout({
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-        />
-        {/* FAQ SCHEMA */}
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }}
         />
       </head>
       <body>
