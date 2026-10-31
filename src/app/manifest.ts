@@ -2,9 +2,9 @@ import type { MetadataRoute } from 'next';
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: 'Vape Shop Delhi | Best Vape Store in Delhi NCR',
+    name: 'Vape Shop Delhi | Best Vape Store in Delhi',
     short_name: 'Vape Shop Delhi',
-    description: 'Delhi #1 Authentic Vape Store with 45-Min Express Delivery & COD across all Delhi NCR localities.',
+    description: 'Delhi #1 Authentic Vape Store with 45-Min Express Delivery & COD across all Delhi localities.',
     start_url: '/',
     display: 'standalone',
     background_color: '#090a0f',

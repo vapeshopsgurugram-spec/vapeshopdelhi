@@ -121,23 +121,23 @@ const DELHI_AREAS: Record<string, AreaInfo> = {
     pinCodes: ['110017', '110068'],
     landmark: 'Select City Walk Mall, Saket'
   },
-  'gurgaon': {
-    name: 'Gurgaon',
-    title: 'Vape Shop Gurgaon | Buy Vapes Gurugram | 60-Min Express Delivery',
-    description: 'Buy 100% authentic disposable vapes in Gurgaon (Gurugram). Elfbar, SMOK pod kits with 60-min express delivery to Cyber City, Golf Course Road, Sector 29, Sohna Road. COD available.',
-    deliveryTime: '60 Minutes',
-    localities: ['DLF Phase 1-5', 'Cyber City', 'Golf Course Road', 'Golf Course Extension', 'Sector 29', 'Sector 56', 'Sohna Road', 'MG Road Gurgaon'],
-    pinCodes: ['122001', '122002', '122009', '122018'],
-    landmark: 'Cyber Hub, DLF Cyber City'
+  'lajpat-nagar': {
+    name: 'Lajpat Nagar',
+    title: 'Vape Shop Lajpat Nagar Delhi | Buy Vapes South Delhi | 45-Min Delivery',
+    description: 'Buy 100% authentic vapes in Lajpat Nagar, South Delhi. Elfbar, SMOK pod kits with 45-min delivery to Central Market, Defence Colony, South Extension, Amar Colony. COD available.',
+    deliveryTime: '45 Minutes',
+    localities: ['Lajpat Nagar 1-4', 'Central Market', 'Amar Colony', 'Defence Colony', 'South Extension 1 & 2', 'Andrews Ganj'],
+    pinCodes: ['110024', '110049'],
+    landmark: 'Lajpat Nagar Metro Station & Central Market'
   },
-  'noida': {
-    name: 'Noida',
-    title: 'Vape Shop Noida | Buy Vapes in Noida | 60-Min Express Delivery',
-    description: 'Buy authentic vapes in Noida & Greater Noida. Elfbar Raya D2, SMOK kits with 60-min delivery to Sector 18, Sector 62, Sector 137, Noida Expressway. COD available.',
-    deliveryTime: '60 Minutes',
-    localities: ['Noida Sector 18', 'Sector 62', 'Sector 50', 'Sector 76', 'Sector 137', 'Noida Expressway', 'Greater Noida West'],
-    pinCodes: ['201301', '201309', '201307'],
-    landmark: 'Mall of India, Sector 18'
+  'paschim-vihar': {
+    name: 'Paschim Vihar',
+    title: 'Vape Shop Paschim Vihar Delhi | Buy Vapes West Delhi | 45-Min Delivery',
+    description: 'Buy 100% authentic vapes in Paschim Vihar, West Delhi. Elfbar, SMOK pod kits with 45-min express delivery to B-Block, Jwalaheri, Peeragarhi, Bhera Enclave. COD available.',
+    deliveryTime: '45 Minutes',
+    localities: ['Paschim Vihar East & West', 'Jwalaheri Market', 'Madipur', 'Peeragarhi', 'Bhera Enclave', 'Meera Bagh'],
+    pinCodes: ['110063'],
+    landmark: 'Paschim Vihar West Metro Station'
   },
   'punjabi-bagh': {
     name: 'Punjabi Bagh',

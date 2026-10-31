@@ -49,7 +49,7 @@ export default function SeoGuide() {
             </div>
           </div>
 
-          {/* PRICE COMPARISON TABLE FOR DELHIBUYERS */}
+          {/* PRICE COMPARISON TABLE FOR DELHI BUYERS */}
           <div className="mb-8 p-4 sm:p-5 rounded-2xl bg-obsidian-950/70 border border-white/10">
             <h3 className="font-heading font-bold text-sm sm:text-lg text-white mb-2 flex items-center gap-2">
               <span>💰</span> Vape Price in Delhi (2026 Live Price List)
@@ -123,19 +123,19 @@ export default function SeoGuide() {
               </p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 text-xs">
                 <div className="p-2.5 rounded-xl bg-white/5 border border-white/5">
-                  <strong className="text-brand-cyan">South Delhi (45 Mins):</strong> Greater Kailash (GK 1 &amp; 2), Hauz Khas, Saket, Green Park, Defence Colony, Vasant Kunj, Lajpat Nagar.
+                  <strong className="text-brand-cyan">South Delhi (45 Mins):</strong> <Link href="/delhi/greater-kailash" className="hover:text-white underline decoration-brand-cyan/40">Greater Kailash (GK 1 &amp; 2)</Link>, <Link href="/delhi/hauz-khas" className="hover:text-white underline decoration-brand-cyan/40">Hauz Khas</Link>, <Link href="/delhi/saket" className="hover:text-white underline decoration-brand-cyan/40">Saket</Link>, Defence Colony, <Link href="/delhi/vasant-kunj" className="hover:text-white underline decoration-brand-cyan/40">Vasant Kunj</Link>.
                 </div>
                 <div className="p-2.5 rounded-xl bg-white/5 border border-white/5">
-                  <strong className="text-brand-cyan">Central Delhi (60 Mins):</strong> Connaught Place (CP), Karol Bagh, Patel Nagar, Mandi House, Civil Lines.
+                  <strong className="text-brand-cyan">Central Delhi (60 Mins):</strong> <Link href="/delhi/connaught-place" className="hover:text-white underline decoration-brand-cyan/40">Connaught Place (CP)</Link>, <Link href="/delhi/karol-bagh" className="hover:text-white underline decoration-brand-cyan/40">Karol Bagh</Link>, Patel Nagar, Mandi House, Civil Lines.
                 </div>
                 <div className="p-2.5 rounded-xl bg-white/5 border border-white/5">
-                  <strong className="text-brand-cyan">West Delhi (60 Mins):</strong> Dwarka (All Sectors 1-23), Rajouri Garden, Punjabi Bagh, Janakpuri, Paschim Vihar.
+                  <strong className="text-brand-cyan">West Delhi (60 Mins):</strong> <Link href="/delhi/dwarka" className="hover:text-white underline decoration-brand-cyan/40">Dwarka (All Sectors 1-23)</Link>, <Link href="/delhi/rajouri-garden" className="hover:text-white underline decoration-brand-cyan/40">Rajouri Garden</Link>, <Link href="/delhi/punjabi-bagh" className="hover:text-white underline decoration-brand-cyan/40">Punjabi Bagh</Link>, <Link href="/delhi/janakpuri" className="hover:text-white underline decoration-brand-cyan/40">Janakpuri</Link>.
                 </div>
                 <div className="p-2.5 rounded-xl bg-white/5 border border-white/5">
-                  <strong className="text-brand-cyan">North &amp; East Delhi (60-90 Mins):</strong> Rohini, Pitampura NSP, Shalimar Bagh, Mayur Vihar, Laxmi Nagar, Preet Vihar.
+                  <strong className="text-brand-cyan">North &amp; East Delhi (60-90 Mins):</strong> <Link href="/delhi/rohini" className="hover:text-white underline decoration-brand-cyan/40">Rohini</Link>, <Link href="/delhi/pitampura" className="hover:text-white underline decoration-brand-cyan/40">Pitampura NSP</Link>, <Link href="/delhi/mayur-vihar" className="hover:text-white underline decoration-brand-cyan/40">Mayur Vihar</Link>, <Link href="/delhi/laxmi-nagar" className="hover:text-white underline decoration-brand-cyan/40">Laxmi Nagar</Link>.
                 </div>
                 <div className="p-2.5 rounded-xl bg-white/5 border border-white/5 col-span-1 sm:col-span-2">
-                  <strong className="text-emerald-400">⚡ Aerocity &amp; NCR Hubs (30-60 Mins):</strong> Worldmark Aerocity hotels, IGI Airport terminals, Cyber City Gurgaon, DLF Phase 1-5, Noida Sector 18 &amp; 62.
+                  <strong className="text-emerald-400">⚡ Aerocity &amp; NCR Hubs (30-60 Mins):</strong> <Link href="/delhi/aerocity" className="hover:text-white underline decoration-emerald-400/40">Worldmark Aerocity hotels</Link>, IGI Airport terminals, Cyber City Gurgaon, DLF Phase 1-5, Noida Sector 18 &amp; 62.
                 </div>
               </div>
             </div>
@@ -161,7 +161,7 @@ export default function SeoGuide() {
                 4. Late Night &amp; 24/7 Urgent Vape Delivery in Delhi
               </h3>
               <p>
-                Ran out of puffs late at night? Our delivery partners operate until 2:00 AM across top nightlife zones including Aerocity hotels, Connaught Place, Greater Kailash, Cyber Hub Gurgaon, and Noida Sector 18. Simply reach out via WhatsApp at <a href="https://wa.me/918816964412" className="text-emerald-400 font-bold hover:underline">+91 8816964412</a> to check live late-night rider availability in your sector.
+                Looking for a <strong className="text-white">vape shop open now near me</strong> in Delhi? We operate 7 days a week with rapid late-night delivery options across major hotspots including <Link href="/delhi/aerocity" className="text-brand-cyan hover:underline font-medium">Aerocity Worldmark hotels</Link>, Connaught Place, Greater Kailash, Cyber Hub Gurgaon, and Noida Sector 18. Tamper-proof, discreet plain-box packaging guaranteed. Reach out via WhatsApp at <a href="https://wa.me/918816964412" className="text-emerald-400 font-bold hover:underline">+91 8816964412</a> to check live rider availability in your sector.
               </p>
             </div>
           </div>

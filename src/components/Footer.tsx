@@ -33,7 +33,7 @@ export default function Footer() {
           {/* DELIVERY AREAS */}
           <div className="lg:col-span-2">
             <h4 className="font-heading font-bold text-sm text-white mb-3.5 tracking-tight">
-              All 18 Delhi NCR Delivery Areas (45-60 Min Express)
+              All 18 Delhi Delivery Areas (45-60 Min Express)
             </h4>
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-3 gap-y-1.5 text-xs">
               <Link href="/delhi/south-delhi" className="hover:text-brand-cyan transition-colors">Vape Shop South Delhi</Link>
@@ -52,8 +52,8 @@ export default function Footer() {
               <Link href="/delhi/mayur-vihar" className="hover:text-brand-cyan transition-colors">Vape Shop Mayur Vihar</Link>
               <Link href="/delhi/laxmi-nagar" className="hover:text-brand-cyan transition-colors">Vape Shop Laxmi Nagar</Link>
               <Link href="/delhi/aerocity" className="hover:text-brand-cyan transition-colors">⚡ Vape Shop Aerocity 24/7</Link>
-              <Link href="/delhi/gurgaon" className="hover:text-brand-cyan transition-colors">Vape Shop Gurgaon</Link>
-              <Link href="/delhi/noida" className="hover:text-brand-cyan transition-colors">Vape Shop Noida</Link>
+              <Link href="/delhi/lajpat-nagar" className="hover:text-brand-cyan transition-colors">Vape Shop Lajpat Nagar</Link>
+              <Link href="/delhi/paschim-vihar" className="hover:text-brand-cyan transition-colors">Vape Shop Paschim Vihar</Link>
             </div>
           </div>
 
@@ -67,7 +67,7 @@ export default function Footer() {
               <li><Link href="/products/smok-nord-pod-kit-1100mah" className="hover:text-brand-cyan transition-colors">SMOK Nord Pod Kit 1100mAh</Link></li>
               <li><Link href="/products/elfbar-raya-d1-disposable-pod-device-black-gold" className="hover:text-brand-cyan transition-colors">Elfbar Raya D1 (Black Gold 13K)</Link></li>
               <li><Link href="/#products" className="hover:text-brand-cyan transition-colors">Disposable Pod Devices Delhi</Link></li>
-              <li><Link href="/#products" className="hover:text-brand-cyan transition-colors">Refillable Pod Kits Delhi NCR</Link></li>
+              <li><Link href="/#products" className="hover:text-brand-cyan transition-colors">Refillable Pod Kits Delhi</Link></li>
               <li><Link href="/#products" className="hover:text-brand-cyan transition-colors">Imported Nic Salt Juices Delhi</Link></li>
             </ul>
           </div>
@@ -145,8 +145,8 @@ export default function Footer() {
               <Link href="/delhi/mayur-vihar" className="hover:text-brand-cyan">vape shop mayur vihar (110091)</Link> •
               <Link href="/delhi/laxmi-nagar" className="hover:text-brand-cyan">vape shop laxmi nagar (110092)</Link> •
               <Link href="/delhi/aerocity" className="hover:text-brand-cyan">vape delivery aerocity worldmark (110037)</Link> •
-              <Link href="/delhi/gurgaon" className="hover:text-brand-cyan">vape shop gurgaon cyber city</Link> •
-              <Link href="/delhi/noida" className="hover:text-brand-cyan">vape shop noida sector 18</Link>
+              <Link href="/delhi/lajpat-nagar" className="hover:text-brand-cyan">vape shop lajpat nagar (110024)</Link> •
+              <Link href="/delhi/paschim-vihar" className="hover:text-brand-cyan">vape shop paschim vihar (110063)</Link>
             </div>
           </div>
 

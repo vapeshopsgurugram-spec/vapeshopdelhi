@@ -21,6 +21,16 @@ const nextConfig: NextConfig = {
         destination: '/products/elfbar-raya-d1-disposable-pod-device-black-gold',
         permanent: true,
       },
+      {
+        source: '/delhi/gurgaon',
+        destination: '/delhi/south-delhi',
+        permanent: true,
+      },
+      {
+        source: '/delhi/noida',
+        destination: '/delhi/mayur-vihar',
+        permanent: true,
+      },
     ];
   },
 };

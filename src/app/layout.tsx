@@ -142,8 +142,8 @@ const websiteSchema = {
   '@id': 'https://vapeeshopdelhi.com/#website',
   url: 'https://vapeeshopdelhi.com',
   name: 'Vape Shop Delhi',
-  alternateName: ['Vape Shop in Delhi', 'Vape Store Delhi', 'VapeeShopDelhi', 'Vapee Shop Delhi', 'VapeeShopDelhi.com', 'Vape Store Gurgaon'],
-  description: 'Delhi NCR #1 Store for Authentic Vapes, Disposable Pods & E-Liquids with Same Day Delivery',
+  alternateName: ['Vape Shop in Delhi', 'Best Vape Shop in Delhi', 'Vape Store Delhi', 'VapeeShopDelhi', 'VapeeShopDelhi.com', 'Buy Vape Delhi'],
+  description: 'Delhi #1 Store for Authentic Vapes, Disposable Pods & E-Liquids with Same Day Delivery',
   potentialAction: {
     '@type': 'SearchAction',
     target: 'https://vapeeshopdelhi.com/?q={search_term_string}',

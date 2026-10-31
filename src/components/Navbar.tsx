@@ -14,7 +14,7 @@ export default function Navbar() {
           <div className="flex items-center gap-1.5 text-slate-300 font-medium truncate text-[11px] sm:text-xs">
             <span className="text-amber-400 shrink-0">⚡</span>
             <span className="font-bold text-white">Delhi Express:</span>
-            <span className="truncate">45-Min Delivery in Delhi NCR • COD Available</span>
+            <span className="truncate">45-Min Delivery Across Delhi • COD Available</span>
           </div>
           <div className="hidden md:flex items-center gap-2.5">
             <span className="text-[11px] px-2.5 py-0.5 rounded-full bg-brand-cyan/10 text-brand-cyan border border-brand-cyan/20">

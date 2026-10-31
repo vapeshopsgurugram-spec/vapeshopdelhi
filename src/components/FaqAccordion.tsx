@@ -13,8 +13,8 @@ const FAQ_DATA: FaqItem[] = [
     answer: 'Vape price in Delhi starts from ₹1,650 for Elfbar Raya D1 (13,000 puffs) and ₹1,800 for Elfbar Raya D2 (20,000 puffs dual mode with smart screen). Pod kits like SMOK Nord 1100mAh are priced at ₹3,500. We offer direct wholesale-to-consumer pricing with 100% manufacturer scratch verification and Cash on Delivery (COD) across all Delhi areas.'
   },
   {
-    question: 'Can I get 1-hour instant vape delivery anywhere in Delhi NCR?',
-    answer: 'Yes! We offer 45 to 60-minute express doorstep delivery across Delhi NCR. South Delhi (GK, Saket, Hauz Khas) receives orders in 45 minutes. Central Delhi (Connaught Place), West Delhi (Dwarka, Rajouri Garden), and East/North Delhi (Rohini, Pitampura) are fulfilled within 60 minutes. Late-night delivery is also available across Aerocity and Cyber City hubs.'
+    question: 'Can I get 1-hour instant vape delivery anywhere in Delhi?',
+    answer: 'Yes! We offer 45 to 60-minute express doorstep delivery across all of Delhi. South Delhi (GK, Saket, Hauz Khas, Lajpat Nagar) receives orders in 45 minutes. Central Delhi (Connaught Place), West Delhi (Dwarka, Punjabi Bagh, Paschim Vihar), and East/North Delhi (Rohini, Pitampura, Mayur Vihar) are fulfilled within 60 minutes. Late-night delivery is also available across Aerocity hotels and airport hubs.'
   },
   {
     question: 'Which is the best vape shop in Delhi for authentic products?',
@@ -61,12 +61,12 @@ const FAQ_DATA: FaqItem[] = [
     answer: 'Ordering is simple: (1) Browse our Delhi collection above and choose your product & flavor. (2) Click "Order on WhatsApp" and share your Delhi delivery address. (3) Our Delhi delivery partner dispatches within 30 minutes. Pay via UPI or Cash on Delivery when it arrives. We\'re available 10 AM to 11 PM, 7 days a week.'
   },
   {
-    question: 'Is late night vape delivery available in Delhi NCR & Aerocity?',
-    answer: 'Yes! We provide late night express vape delivery across Delhi NCR, Aerocity Worldmark, Gurgaon, and Noida. Orders confirmed via WhatsApp are dispatched rapidly via our dedicated night delivery riders.'
+    question: 'Is late night vape delivery available in Delhi & Aerocity?',
+    answer: 'Yes! We provide late night express vape delivery across Delhi, South Delhi, Central Delhi, West Delhi, and Aerocity Worldmark hotels. Orders confirmed via WhatsApp are dispatched rapidly via our dedicated night delivery riders.'
   },
   {
-    question: 'Do you deliver vapes to Gurgaon (Gurugram) and Noida?',
-    answer: 'Yes! We provide 60-minute express vape delivery across Gurgaon (DLF Phase 1-5, Cyber City, Golf Course Road, Sohna Road) and Noida (Sector 18, 62, 137). Cash on Delivery (COD) is available across Delhi NCR.'
+    question: 'Which areas in Delhi do you provide 45-minute express delivery to?',
+    answer: 'We provide 45 to 60-minute express doorstep delivery to all Delhi zones including South Delhi (GK 1 & 2, Saket, Hauz Khas, Lajpat Nagar), Central Delhi (CP, Karol Bagh), West Delhi (Dwarka, Punjabi Bagh, Paschim Vihar), North Delhi (Rohini, Pitampura), East Delhi (Mayur Vihar, Laxmi Nagar), and Aerocity. Cash on Delivery (COD) is available across all of Delhi.'
   }
 ];
 
