@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   metadataBase: new URL('https://vapeeshopdelhi.com'),
   title: {
     default: 'Vape Shop Delhi | Buy Vapes Online | 45-Min Express Delivery',
-    template: '%s | Vape Shop Delhi'
+    template: '%s'
   },
   description:
     '#1 Vape Shop in Delhi. Buy authentic disposable vapes, Elfbar 20K puffs & SMOK online. 45-min express delivery in Delhi NCR with COD. WhatsApp: +91 8816964412.',
