@@ -226,7 +226,7 @@ export default function ProductCatalog({ products }: ProductCatalogProps) {
                   Details
                 </Link>
                 <a
-                  href={`https://wa.me/918816964412?text=${encodeURIComponent(
+                  href={`https://wa.me/917742243176?text=${encodeURIComponent(
                     `Hi Vape Shop Delhi, I want to order *${product.name}* (Price: ₹${product.price}) with 45-min express delivery in Delhi.`
                   )}`}
                   className="py-1.5 px-2 rounded-lg bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white font-bold text-[11px] sm:text-xs shadow-glow-whatsapp flex items-center justify-center gap-1 transition-all active:scale-95 w-full"

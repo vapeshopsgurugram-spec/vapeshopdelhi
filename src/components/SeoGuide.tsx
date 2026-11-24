@@ -161,7 +161,7 @@ export default function SeoGuide() {
                 4. Late Night &amp; 24/7 Urgent Vape Delivery in Delhi
               </h3>
               <p>
-                Looking for a <strong className="text-white">vape shop open now near me</strong> in Delhi? We operate 7 days a week with rapid late-night delivery options across major hotspots including <Link href="/delhi/aerocity" className="text-brand-cyan hover:underline font-medium">Aerocity Worldmark hotels</Link>, Connaught Place, Greater Kailash, Cyber Hub Gurgaon, and Noida Sector 18. Tamper-proof, discreet plain-box packaging guaranteed. Reach out via WhatsApp at <a href="https://wa.me/918816964412" className="text-emerald-400 font-bold hover:underline">+91 8816964412</a> to check live rider availability in your sector.
+                Looking for a <strong className="text-white">vape shop open now near me</strong> in Delhi? We operate 7 days a week with rapid late-night delivery options across major hotspots including <Link href="/delhi/aerocity" className="text-brand-cyan hover:underline font-medium">Aerocity Worldmark hotels</Link>, Connaught Place, Greater Kailash, Cyber Hub Gurgaon, and Noida Sector 18. Tamper-proof, discreet plain-box packaging guaranteed. Reach out via WhatsApp at <a href="https://wa.me/917742243176" className="text-emerald-400 font-bold hover:underline">+91 7742243176</a> to check live rider availability in your sector.
               </p>
             </div>
           </div>
@@ -172,7 +172,7 @@ export default function SeoGuide() {
               Need personalized flavor advice or bulk Delhi discounts?
             </div>
             <a
-              href="https://wa.me/918816964412?text=Hello%20Vape%20Shop%20Delhi%2C%20please%20send%20today's%20menu%20and%20prices"
+              href="https://wa.me/917742243176?text=Hello%20Vape%20Shop%20Delhi%2C%20please%20send%20today's%20menu%20and%20prices"
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white font-bold text-xs shadow-glow-whatsapp active:scale-95 transition-all"
               target="_blank"
               rel="noopener noreferrer"

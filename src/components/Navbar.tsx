@@ -24,12 +24,12 @@ export default function Navbar() {
               🛡️ COD Available
             </span>
             <a
-              href="https://wa.me/918816964412"
+              href="https://wa.me/917742243176"
               target="_blank"
               rel="noopener noreferrer"
               className="text-[11px] text-slate-300 hover:text-white font-medium"
             >
-              WhatsApp: <strong className="text-emerald-400">+91 8816964412</strong>
+              WhatsApp: <strong className="text-emerald-400">+91 7742243176</strong>
             </a>
           </div>
         </div>
@@ -100,7 +100,7 @@ export default function Navbar() {
           {/* SLEEK NAVBAR CTA */}
           <div className="flex items-center gap-2">
             <a
-              href="https://wa.me/918816964412?text=Hi%20Vape%20Shop%20Delhi%2C%20I%20want%20to%20order%20vapes%20in%20Delhi"
+              href="https://wa.me/917742243176?text=Hi%20Vape%20Shop%20Delhi%2C%20I%20want%20to%20order%20vapes%20in%20Delhi"
               className="inline-flex items-center gap-1.5 px-3 py-1.5 sm:px-4 sm:py-2 rounded-full bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white font-bold text-xs sm:text-sm shadow-glow-whatsapp active:scale-95 transition-all"
               target="_blank"
               rel="noopener noreferrer"

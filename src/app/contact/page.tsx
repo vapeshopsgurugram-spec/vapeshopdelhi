@@ -4,7 +4,7 @@ import type { Metadata } from 'next';
 export const metadata: Metadata = {
   title: 'Contact Vape Shop Delhi | 45-Min Express Delivery Hotline',
   description:
-    'Contact Vape Shop Delhi. WhatsApp/Call +91 8816964412 for instant vape orders, local Delhi delivery tracking, and flavor consultations. Available 10 AM to 11 PM daily.',
+    'Contact Vape Shop Delhi. WhatsApp/Call +91 7742243176 for instant vape orders, local Delhi delivery tracking, and flavor consultations. Available 10 AM to 11 PM daily.',
   alternates: {
     canonical: 'https://vapeeshopdelhi.com/contact'
   }
@@ -36,12 +36,12 @@ export default function ContactPage() {
               Fastest way to order. Send us your location and product of choice — rider dispatches in 30 minutes.
             </p>
             <a
-              href="https://wa.me/918816964412?text=Hello%20Vape%20Shop%20Delhi%2C%20I%20have%20an%20enquiry"
+              href="https://wa.me/917742243176?text=Hello%20Vape%20Shop%20Delhi%2C%20I%20have%20an%20enquiry"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-gradient-to-r from-emerald-500 to-emerald-600 text-white font-bold text-xs shadow-glow-whatsapp"
               target="_blank"
               rel="noopener noreferrer"
             >
-              <span>📲</span> WhatsApp +91 8816964412
+              <span>📲</span> WhatsApp +91 7742243176
             </a>
           </div>
 
@@ -52,10 +52,10 @@ export default function ContactPage() {
               Available 10:00 AM – 11:00 PM every day for urgent delivery inquiries and order status checks.
             </p>
             <a
-              href="tel:+918816964412"
+              href="tel:+917742243176"
               className="inline-flex items-center gap-2 px-4 py-2 rounded-xl bg-obsidian-800 border border-white/10 text-white font-bold text-xs hover:border-brand-cyan/40"
             >
-              <span>📞</span> Call +91 88169 64412
+              <span>📞</span> Call +91 77422 43176
             </a>
           </div>
         </div>

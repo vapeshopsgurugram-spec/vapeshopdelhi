@@ -220,7 +220,7 @@ export default async function DelhiAreaPage({ params }: PageProps) {
     name: `Vape Shop Delhi - ${areaInfo.name}`,
     description: areaInfo.description,
     url: `https://vapeeshopdelhi.com/delhi/${area}`,
-    telephone: '+918816964412',
+    telephone: '+917742243176',
     priceRange: '₹₹',
     currenciesAccepted: 'INR',
     paymentAccepted: 'Cash on Delivery, UPI, Google Pay, PhonePe, Paytm',
@@ -286,7 +286,7 @@ export default async function DelhiAreaPage({ params }: PageProps) {
             </p>
             <div className="hero-buttons">
               <a
-                href={`https://wa.me/918816964412?text=${waMessage}`}
+                href={`https://wa.me/917742243176?text=${waMessage}`}
                 className="btn btn-whatsapp btn-large"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -399,7 +399,7 @@ export default async function DelhiAreaPage({ params }: PageProps) {
           </p>
           <div style={{ display: 'flex', gap: '16px', justifyContent: 'center', flexWrap: 'wrap' }}>
             <a
-              href={`https://wa.me/918816964412?text=${waMessage}`}
+              href={`https://wa.me/917742243176?text=${waMessage}`}
               className="btn btn-whatsapp btn-large"
               target="_blank"
               rel="noopener noreferrer"

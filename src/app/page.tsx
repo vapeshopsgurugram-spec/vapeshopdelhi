@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     absolute: 'Vape Shop Delhi | Buy Vapes Online | 45-Min Express Delivery'
   },
   description:
-    '#1 Vape Shop in Delhi. Buy authentic disposable vapes, Elfbar 20K puffs & SMOK online. 45-min express delivery in Delhi NCR with COD. WhatsApp: +91 8816964412.',
+    '#1 Vape Shop in Delhi. Buy authentic disposable vapes, Elfbar 20K puffs & SMOK online. 45-min express delivery in Delhi NCR with COD. WhatsApp: +91 7742243176.',
   keywords: [
     'vape shop delhi',
     'vape shop in delhi',
@@ -46,7 +46,7 @@ export const metadata: Metadata = {
     siteName: 'Vape Shop Delhi',
     title: 'Vape Shop Delhi | Buy Vapes Online | 45-Min Express Delivery',
     description:
-      '#1 Vape Shop in Delhi. Buy authentic disposable vapes, Elfbar 20K puffs & SMOK online. 45-min express delivery in Delhi NCR with COD. WhatsApp: +91 8816964412.',
+      '#1 Vape Shop in Delhi. Buy authentic disposable vapes, Elfbar 20K puffs & SMOK online. 45-min express delivery in Delhi NCR with COD. WhatsApp: +91 7742243176.',
     images: [
       {
         url: 'https://vapeeshopdelhi.com/og-banner.jpg',
@@ -326,7 +326,7 @@ export default function HomePage() {
                   Explore Live Collection
                 </a>
                 <a
-                  href="https://wa.me/918816964412?text=Hello%20Vape%20Shop%20Delhi%2C%20please%20send%20today's%20menu%20and%20prices"
+                  href="https://wa.me/917742243176?text=Hello%20Vape%20Shop%20Delhi%2C%20please%20send%20today's%20menu%20and%20prices"
                   className="px-6 py-3 rounded-xl bg-obsidian-850/90 hover:bg-obsidian-800 border border-white/10 hover:border-emerald-500/40 text-white font-bold text-sm backdrop-blur-md transition-all hover:scale-105 active:scale-95 inline-flex items-center gap-2 shadow-sm"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -406,7 +406,7 @@ export default function HomePage() {
               Looking for a specific model, coil, or salt nic flavor not listed? We stock 100+ items at our Delhi warehouse — Elfbar, SMOK, Uwell, Vaporesso &amp; more!
             </p>
             <a
-              href="https://wa.me/918816964412?text=Hello%20Vape%20Shop%20Delhi%21%20I%20want%20to%20see%20the%20full%20menu%20of%20available%20products%20for%20delivery%20in%20Delhi."
+              href="https://wa.me/917742243176?text=Hello%20Vape%20Shop%20Delhi%21%20I%20want%20to%20see%20the%20full%20menu%20of%20available%20products%20for%20delivery%20in%20Delhi."
               className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-gradient-to-r from-emerald-500 to-emerald-600 hover:from-emerald-600 hover:to-emerald-700 text-white font-bold text-xs sm:text-sm shadow-glow-whatsapp active:scale-95 transition-all"
               target="_blank"
               rel="noopener noreferrer"

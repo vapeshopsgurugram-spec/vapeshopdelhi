@@ -11,7 +11,7 @@ export const metadata: Metadata = {
     template: '%s'
   },
   description:
-    '#1 Vape Shop in Delhi. Buy authentic disposable vapes, Elfbar 20K puffs & SMOK online. 45-min express delivery in Delhi NCR with COD. WhatsApp: +91 8816964412.',
+    '#1 Vape Shop in Delhi. Buy authentic disposable vapes, Elfbar 20K puffs & SMOK online. 45-min express delivery in Delhi NCR with COD. WhatsApp: +91 7742243176.',
   keywords: [
     'vape shop delhi',
     'vape shop in delhi',
@@ -165,7 +165,7 @@ const localBusinessSchema = {
   logo: 'https://vapeeshopdelhi.com/logo.png',
   '@id': 'https://vapeeshopdelhi.com/#store',
   url: 'https://vapeeshopdelhi.com',
-  telephone: '+918816964412',
+  telephone: '+917742243176',
   priceRange: '₹₹',
   currenciesAccepted: 'INR',
   paymentAccepted: 'Cash on Delivery, UPI, Google Pay, PhonePe, Paytm',

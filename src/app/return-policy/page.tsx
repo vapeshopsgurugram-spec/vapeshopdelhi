@@ -67,8 +67,8 @@ export default function ReturnPolicyPage() {
             </h2>
             <p>
               Contact our Delhi support hotline on WhatsApp at{' '}
-              <a href="https://wa.me/918816964412" className="text-emerald-400 font-bold hover:underline">
-                +91 8816964412
+              <a href="https://wa.me/917742243176" className="text-emerald-400 font-bold hover:underline">
+                +91 7742243176
               </a>{' '}
               with your order address and short video. Our team will verify and resolve it right away.
             </p>

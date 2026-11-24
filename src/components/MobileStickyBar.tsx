@@ -6,7 +6,7 @@ export default function MobileStickyBar() {
       <div className="flex gap-2 max-w-md mx-auto">
         {/* CALL BUTTON WITH SHARP PHONE SVG ICON */}
         <a
-          href="tel:+918816964412"
+          href="tel:+917742243176"
           className="flex-1 flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl bg-obsidian-850/90 border border-white/10 text-white font-bold text-xs tracking-wide shadow-sm hover:border-brand-cyan/40 transition-all active:scale-95"
           aria-label="Call Delhi Store"
         >
@@ -18,7 +18,7 @@ export default function MobileStickyBar() {
 
         {/* WHATSAPP BUTTON WITH OFFICIAL WHATSAPP VECTOR SVG ICON */}
         <a
-          href="https://wa.me/918816964412?text=Hi%20Vape%20Shop%20Delhi%2C%20I%20want%20to%20order%20vapes%20now%20in%20Delhi"
+          href="https://wa.me/917742243176?text=Hi%20Vape%20Shop%20Delhi%2C%20I%20want%20to%20order%20vapes%20now%20in%20Delhi"
           className="flex-[1.25] flex items-center justify-center gap-2 py-2.5 px-3 rounded-xl bg-gradient-to-r from-emerald-500 to-emerald-600 text-white font-bold text-xs tracking-wide shadow-glow-whatsapp transition-all active:scale-95"
           target="_blank"
           rel="noopener noreferrer"
