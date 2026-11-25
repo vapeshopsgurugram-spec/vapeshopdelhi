@@ -1,4 +1,6 @@
 declare module 'next' {
+  export type ResolvingMetadata = any;
+  export type ResolvingViewport = any;
   export interface Metadata {
     title?: any;
     description?: string;
@@ -34,5 +36,22 @@ declare module 'next/navigation' {
   export function useSearchParams(): any;
 }
 
-declare module 'next/types.js';
-declare module 'next/server.js';
+declare module 'next/types' {
+  export type ResolvingMetadata = any;
+  export type ResolvingViewport = any;
+}
+
+declare module 'next/types.js' {
+  export type ResolvingMetadata = any;
+  export type ResolvingViewport = any;
+}
+
+declare module 'next/server' {
+  export type NextRequest = any;
+  export type NextResponse = any;
+}
+
+declare module 'next/server.js' {
+  export type NextRequest = any;
+  export type NextResponse = any;
+}
